@@ -2,14 +2,14 @@
 
 <picture>
   <source 
-    srcset="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&theme=dark&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&theme=dark&include_all_commits=false"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&include_all_commits=false"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&include_all_commits=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chizer77&show_icons=true&include_all_commits=false" />
 </picture>
 
 </p>
