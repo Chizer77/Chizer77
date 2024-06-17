@@ -1,4 +1,4 @@
-### Hi, it's Chizer. Now also in continuous learning...
+### Hi, it's Chizer. Now also in continuous learning...![](https://visitor-badge.laobi.icu/badge?page_id=chizer77.readme)
 
 <picture>
   <source 
