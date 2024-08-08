@@ -19,14 +19,14 @@
     <td>
       <picture>
         <source 
-          srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&theme=dark&include_all_commits=false&bg_color=0d1117"
+          srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&theme=dark&include_all_commits=true&bg_color=0d1117"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=false&bg_color=ffffff"
+          srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&bg_color=ffffff"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img height="140" src="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=false" />
+        <img height="140" src="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true" />
       </picture>
     </td>
     <td>
