@@ -2,7 +2,7 @@
 <h2 align="center">Hi, it's Chizer. Now also in continuous learning...</h2>
 
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&size=39&pause=1000&color=185CFF&background=90E5FA00&center=true&vCenter=true&width=435&lines=NO+GAME+NO+LIFE" alt="NO GAME NO LIFE" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&size=39&pause=1000&color=185CFF&center=true&vCenter=true&width=435&height=39&lines=NO+CODE+NO+LIFE" alt="NO GAME NO LIFE" /></a>
 </div>
 
 <div align="center">
