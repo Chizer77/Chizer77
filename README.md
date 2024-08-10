@@ -8,10 +8,12 @@
 <div align="center">
   <img alt="Endpoint Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fchizer77%2Freadme.json&style=for-the-badge&logo=githubcopilot&logoColor=0B2A74&label=visitors&labelColor=white&color=0B2A74">
   <a href="https://codeforces.com/profile/Chizer">
+    <img alt="Codeforces Rating" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FChizer77%2FChizer77%2Fmain%2Fcf_rating.json&style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBjbGFzcz0ibG9nbyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjI1IiB2aWV3Qm94PSIwIDAgMzIgMjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BDQogICAgPHJlY3QgeT0iNiIgd2lkdGg9IjgiIGhlaWdodD0iMTguMTI1IiByeD0iMiIgZmlsbD0iI0ZGQzEwNyIvPg0KICAgIDxyZWN0IHg9IjI0IiB5PSIxMC4xMjUiIHdpZHRoPSI4IiBoZWlnaHQ9IjE0IiByeD0iMiIgZmlsbD0iI0Y0NDMzNiIvPg0KICAgIDxyZWN0IHg9IjEyIiB3aWR0aD0iOCIgaGVpZ2h0PSIyNC4xMjUiIHJ4PSIyIiBmaWxsPSIjMjE5NkYzIi8%2BDQo8L3N2Zz4%3D&label=Codeforces%20Rating&labelColor=white&color=008000&cacheSeconds=86400">
+  </a>
+  <a href="https://codeforces.com/profile/Chizer">
     <img alt="Codeforces Rating" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DChizer&query=%24.result%5B%3A1%5D.rating&style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBjbGFzcz0ibG9nbyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjI1IiB2aWV3Qm94PSIwIDAgMzIgMjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BDQogICAgPHJlY3QgeT0iNiIgd2lkdGg9IjgiIGhlaWdodD0iMTguMTI1IiByeD0iMiIgZmlsbD0iI0ZGQzEwNyIvPg0KICAgIDxyZWN0IHg9IjI0IiB5PSIxMC4xMjUiIHdpZHRoPSI4IiBoZWlnaHQ9IjE0IiByeD0iMiIgZmlsbD0iI0Y0NDMzNiIvPg0KICAgIDxyZWN0IHg9IjEyIiB3aWR0aD0iOCIgaGVpZ2h0PSIyNC4xMjUiIHJ4PSIyIiBmaWxsPSIjMjE5NkYzIi8%2BDQo8L3N2Zz4%3D&label=Codeforces%20Rating&labelColor=white&color=008000&cacheSeconds=86400">
   </a>
 </div>
-
 <br>
 
 <table width="100%" align="center">
