@@ -1,5 +1,6 @@
 
-<h2 align="center">Hi, it's Chizer. Now also in continuous learning... <img src="https://visitor-badge.laobi.icu/badge?page_id=chizer77.readme" alt="visitor badge"/> <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="open-source"/></h2>
+<h2 align="center">Hi, it's Chizer. Now in continuous learning... <img src="https://visitor-badge.laobi.icu/badge?page_id=chizer77.readme" alt="visitor badge"/> <a href="https://wakatime.com/@4158cf75-9532-4fae-bc4a-c9c668718648"><img src="https://wakatime.com/badge/user/4158cf75-9532-4fae-bc4a-c9c668718648.svg" alt="Total time coded since May 1 2025" /></a>
+<!-- <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="open-source"/></h2> -->
 
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&size=39&pause=1000&color=185CFF&center=true&vCenter=true&width=435&lines=NO+CODE+NO+LIFE" alt="NO GAME NO LIFE" /></a>
