@@ -2,7 +2,7 @@
     "name": "chizer",
     "private": true,
     "description": "Chizer's readme",
-    "packageManager": "pnpm@9.15.9",
+    "packageManager": "pnpm@10.10.0",
     "type": "module",
     "scripts": {
         "dev": "tsx watch index.ts",
