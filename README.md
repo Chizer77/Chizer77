@@ -81,7 +81,7 @@
 
 <h3 align="center">Toys</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td style="text-align: center; vertical-align: middle;">5/2/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td style="text-align: center; vertical-align: middle;">5/2/2025</td></tr></tbody></table>
+<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/2/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/2/2025</td></tr></tbody></table>
 
 <h3 align="center">Recent Tales</h3>
 
@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li><li><a href=https://github.com/openai/guided-diffusion>openai/guided-diffusion</a></li></ul>
+<ul><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/FlowiseAI/Flowise>FlowiseAI/Flowise</a> <span>Drag & drop UI to build your customized LLM flow</span></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/hyz317/StdGEN>hyz317/StdGEN</a> <span>[CVPR 2025] StdGEN: Semantic-Decomposed 3D Character Generation from Single Images</span></li><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -145,4 +145,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:04 AM<br>Next on: 5/4/25, 3:04 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:05 AM<br>Next on: 5/4/25, 3:05 AM<br>Power By <i>GitHub Action</i></b></p>
