@@ -146,7 +146,7 @@ function minifyHTML(html: TemplateStringsArray, ...args: any[]) {
 }
 
 async function main() {
-    let newReadme = await readFile('./readme.template.md', { encoding: 'utf-8' })
+    let newReadme = await readFile('./README.template.md', { encoding: 'utf-8' })
 
     // 获取代表项目详情
     const artworksDetail = await Promise.all(
