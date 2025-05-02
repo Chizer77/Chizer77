@@ -77,23 +77,23 @@
 
 <h3 align="center">Artworks</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🧶 Issues</b></td><td><b>☄️ Pull Requests</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/simple-compiler><b>Chizer77/simple-compiler</b></a></td><td><a href=https://github.com/Chizer77/simple-compiler><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/simple-compiler?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/simple-compiler><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/simple-compiler?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/issues><img alt=Issues src="https://img.shields.io/github/issues/Chizer77/simple-compiler?style=flat-square&labelColor=72D76F&color=0C630C"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/pulls><img alt="Pull Requests"src="https://img.shields.io/github/issues-pr/Chizer77/simple-compiler?style=flat-square&labelColor=7CBDEA&color=005395"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/commits><img alt="Last Commits"src="https://img.shields.io/github/last-commit/Chizer77/simple-compiler?style=flat-square&labelColor=F87C09&color=F7630C"></a></td></tr></tbody></table>
+<!-- artworks -->
 
 <h3 align="center">Toys</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td></td><td>2025/5/2</td></tr><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td></td><td>2025/5/2</td></tr></tbody></table>
+<!-- toys -->
 
 <h3 align="center">Recent Tales</h3>
 
-<p align=center>In progress...</p>
+<!-- recent_tales -->
 
 <h3 align="center">Recent Stars</h3>
 
-<ul><li><a href=https://github.com/styled-components/styled-components>styled-components/styled-components</a> <span>Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅</span></li><li><a href=https://github.com/wakatime/blender-wakatime>wakatime/blender-wakatime</a> <span>Blender plugin for automatic time tracking and metrics generated from your programming activity.</span></li><li><a href=https://github.com/fuma-nama/fumadocs>fuma-nama/fumadocs</a> <span>The beautiful docs framework with Next.js.</span></li><li><a href=https://github.com/JIEJOE-Visual/snakeball>JIEJOE-Visual/snakeball</a> <span>SNAKEBALL - 休闲的敏捷类WEB小游戏</span></li><li><a href=https://github.com/aigc3d/LHM>aigc3d/LHM</a> <span>LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds</span></li></ul>
+<!-- recent_stars -->
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/donnemartin/system-design-primer>donnemartin/system-design-primer</a> <span>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</span></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li><li><a href=https://github.com/jaywcjlove/linux-command>jaywcjlove/linux-command</a> <span>Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux</span></li><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li><li><a href=https://github.com/state-spaces/mamba>state-spaces/mamba</a> <span>Mamba SSM architecture</span></li></ul>
+<!-- random_stars -->
 
 <table width="100%" align="center">
   <tr>
@@ -144,5 +144,5 @@
   </a>
 </p>
 
-<p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 2025/5/3 01:47<br>Next on: 2025/5/4 01:47<br>Power By <i>GitHub Action</i></b></p>
+<!-- motto -->
+<!-- footer -->
