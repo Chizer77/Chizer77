@@ -43,7 +43,7 @@ function generateArtworksHtml(list: any[]) {
         </tr>`, ``)
 
     return minifyHTML
-        `<table align="center">
+        `<table>
             <thead align="center">
                 <tr border: none;>
                     <td><b>🎉 Project</b></td>
