@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li><li><a href=https://github.com/donnemartin/system-design-primer>donnemartin/system-design-primer</a> <span>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/ai-dawang/PlugNPlay-Modules>ai-dawang/PlugNPlay-Modules</a></li><li><a href=https://github.com/ripienaar/free-for-dev>ripienaar/free-for-dev</a> <span>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</span></li></ul>
+<ul><li><a href=https://github.com/ripienaar/free-for-dev>ripienaar/free-for-dev</a> <span>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</span></li><li><a href=https://github.com/openai/guided-diffusion>openai/guided-diffusion</a></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/hyz317/StdGEN>hyz317/StdGEN</a> <span>[CVPR 2025] StdGEN: Semantic-Decomposed 3D Character Generation from Single Images</span></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -145,4 +145,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:18 AM<br>Next on: 5/4/25, 3:18 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:19 AM<br>Next on: 5/4/25, 3:19 AM<br>Power By <i>GitHub Action</i></b></p>
