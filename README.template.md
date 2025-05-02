@@ -143,6 +143,9 @@
     <img alt="RSS" src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" />
   </a>
 </p>
+<p align="center">
+  <img src="https://count.getloli.com/@Chizer77" alt="Chizer77" />
+</p>
 
 <!-- motto -->
 <!-- footer -->
