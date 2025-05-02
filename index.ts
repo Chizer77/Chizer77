@@ -66,7 +66,7 @@ function generateToysHTML(list: any[]) {
             <td><a href="${cur.html_url}"><b>${cur.full_name}</b></a></td>
             <td><a href="${cur.html_url}"><img alt="Stars" src="https://img.shields.io/github/stars/${cur.full_name}?style=flat-square&labelColor=A99700&color=FCE100"/></a></td>
             <td><a href="${cur.html_url}"><img alt="Forks" src="https://img.shields.io/github/forks/${cur.full_name}?style=flat-square&labelColor=6F2C08&&color=84B61D"/></a></td>
-            <td>${new Date(cur.pushed_at).toLocaleDateString()}</td>
+            <td style="text-align: center; vertical-align: middle;">${new Date(cur.pushed_at).toLocaleDateString()}</td>
         </tr>`, '')
 
     return minifyHTML
