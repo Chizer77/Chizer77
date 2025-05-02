@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/ripienaar/free-for-dev>ripienaar/free-for-dev</a> <span>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</span></li><li><a href=https://github.com/openai/guided-diffusion>openai/guided-diffusion</a></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/hyz317/StdGEN>hyz317/StdGEN</a> <span>[CVPR 2025] StdGEN: Semantic-Decomposed 3D Character Generation from Single Images</span></li></ul>
+<ul><li><a href=https://github.com/umami-software/umami>umami-software/umami</a> <span>Umami is a modern, privacy-focused alternative to Google Analytics.</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/ali-vilab/MangaNinjia>ali-vilab/MangaNinjia</a> <span>[CVPR 2025 Highlight] Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"</span></li><li><a href=https://github.com/open-ani/animeko>open-ani/animeko</a> <span>集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -143,6 +143,9 @@
     <img alt="RSS" src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" />
   </a>
 </p>
+<p align="center">
+  <img src="https://count.getloli.com/@Chizer77" alt="Chizer77" />
+</p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:19 AM<br>Next on: 5/4/25, 3:19 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 4:17 AM<br>Next on: 5/4/25, 4:17 AM<br>Power By <i>GitHub Action</i></b></p>
