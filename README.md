@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/openai/guided-diffusion>openai/guided-diffusion</a></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li><li><a href=https://github.com/open-ani/animeko>open-ani/animeko</a> <span>集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li></ul>
+<ul><li><a href=https://github.com/comfyanonymous/ComfyUI>comfyanonymous/ComfyUI</a> <span>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></li><li><a href=https://github.com/IsshikiHugh/HSMR>IsshikiHugh/HSMR</a> <span>[CVPR25 Oral (Top 3.3%)] Official code for paper "Reconstructing Humans with a Biomechanically Accurate Skeleton".</span></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/vqdang/hover_net>vqdang/hover_net</a> <span>Simultaneous Nuclear Instance Segmentation and Classification in H&E Histology Images.</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -145,4 +145,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:12 AM<br>Next on: 5/4/25, 3:12 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:15 AM<br>Next on: 5/4/25, 3:15 AM<br>Power By <i>GitHub Action</i></b></p>
