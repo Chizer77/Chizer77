@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/comfyanonymous/ComfyUI>comfyanonymous/ComfyUI</a> <span>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></li><li><a href=https://github.com/IsshikiHugh/HSMR>IsshikiHugh/HSMR</a> <span>[CVPR25 Oral (Top 3.3%)] Official code for paper "Reconstructing Humans with a Biomechanically Accurate Skeleton".</span></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/vqdang/hover_net>vqdang/hover_net</a> <span>Simultaneous Nuclear Instance Segmentation and Classification in H&E Histology Images.</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li></ul>
+<ul><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li><li><a href=https://github.com/donnemartin/system-design-primer>donnemartin/system-design-primer</a> <span>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/ai-dawang/PlugNPlay-Modules>ai-dawang/PlugNPlay-Modules</a></li><li><a href=https://github.com/ripienaar/free-for-dev>ripienaar/free-for-dev</a> <span>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</span></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -145,4 +145,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:15 AM<br>Next on: 5/4/25, 3:15 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:18 AM<br>Next on: 5/4/25, 3:18 AM<br>Power By <i>GitHub Action</i></b></p>
