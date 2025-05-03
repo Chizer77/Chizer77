@@ -93,7 +93,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/umami-software/umami>umami-software/umami</a> <span>Umami is a modern, privacy-focused alternative to Google Analytics.</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/ali-vilab/MangaNinjia>ali-vilab/MangaNinjia</a> <span>[CVPR 2025 Highlight] Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"</span></li><li><a href=https://github.com/open-ani/animeko>open-ani/animeko</a> <span>集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li></ul>
+<ul><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li><li><a href=https://github.com/donnemartin/system-design-primer>donnemartin/system-design-primer</a> <span>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</span></li><li><a href=https://github.com/hyz317/StdGEN>hyz317/StdGEN</a> <span>[CVPR 2025] StdGEN: Semantic-Decomposed 3D Character Generation from Single Images</span></li><li><a href=https://github.com/openai/guided-diffusion>openai/guided-diffusion</a></li></ul>
 
 <table width="100%" align="center">
   <tr>
@@ -148,4 +148,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 4:17 AM<br>Next on: 5/4/25, 4:17 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 9:00 AM<br>Next on: 5/4/25, 9:00 AM<br>Power By <i>GitHub Action</i></b></p>
