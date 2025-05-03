@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/comfyanonymous/ComfyUI>comfyanonymous/ComfyUI</a> <span>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></li><li><a href=https://github.com/ali-vilab/MangaNinjia>ali-vilab/MangaNinjia</a> <span>[CVPR 2025 Highlight] Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"</span></li><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li></ul>
+<ul><li><a href=https://github.com/Predidit/Kazumi>Predidit/Kazumi</a> <span>基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/IsshikiHugh/HSMR>IsshikiHugh/HSMR</a> <span>[CVPR25 Oral (Top 3.3%)] Official code for paper "Reconstructing Humans with a Biomechanically Accurate Skeleton".</span></li><li><a href=https://github.com/JIEJOE-Visual/snakeball>JIEJOE-Visual/snakeball</a> <span>SNAKEBALL - 休闲的敏捷类WEB小游戏</span></li><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li></ul>
 <!-- GitHub Activity Graph -->
 <table width="100%" align="center">
   <tr>
@@ -160,4 +160,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 8:07 PM<br>Next on: 5/4/25, 8:07 PM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 8:18 PM<br>Next on: 5/4/25, 8:18 PM<br>Power By <i>GitHub Action</i></b></p>
