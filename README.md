@@ -22,6 +22,14 @@
 </div>
 <br>
 
+<div align="center">
+  <picture decoding="async" loading="lazy" >
+    <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=false&background=linear-gradient(to%20bottom%20right%2C%20%2374dcc4%2C%20%234597e9)">
+    <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%235580eb%2C%20%232aeeff)">
+    <img alt="github stats" height=250px src="[https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=false&background=linear-gradient(to%20bottom%20right%2C%20%2374dcc4%2C%20%234597e9)](https://pixel-profile.vercel.app/api/github-stats?username=Simon-He95&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb))">
+  </picture>
+</div>
+
 <h3 align="center">My Code Skills</h3>
 
 <h4 align="center">Web Dependencies</h4>
@@ -31,6 +39,7 @@
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
   <img alt="next.js" src="https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white"/>
   <img alt="Shadcn/ui" src="https://img.shields.io/badge/Shadcn%2FUI-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+  <img alt="Axios" src="https://img.shields.io/badge/Axios-671ddf?&style=flat-square&logo=axios&logoColor=white"/>
   <img alt="Vue" src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
   <img alt="Eslint" src="https://img.shields.io/badge/Eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white" />
   <img alt="Json" src="https://img.shields.io/badge/Json-5E5C5C?style=flat-square&logo=json&logoColor=white" />
@@ -77,7 +86,6 @@
   <img alt="UE5" src="https://img.shields.io/badge/UE5-%23313131.svg?style=flat-square&logo=unrealengine&logoColor=white" />
 </p>
 
-
 <h3 align="center">Artworks</h3>
 
 <table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🧶 Issues</b></td><td><b>☄️ Pull Requests</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/simple-compiler><b>Chizer77/simple-compiler</b></a></td><td><a href=https://github.com/Chizer77/simple-compiler><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/simple-compiler?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/simple-compiler><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/simple-compiler?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/issues><img alt=Issues src="https://img.shields.io/github/issues/Chizer77/simple-compiler?style=flat-square&labelColor=72D76F&color=0C630C"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/pulls><img alt="Pull Requests"src="https://img.shields.io/github/issues-pr/Chizer77/simple-compiler?style=flat-square&labelColor=7CBDEA&color=005395"></a></td><td><a href=https://github.com/Chizer77/simple-compiler/commits><img alt="Last Commits"src="https://img.shields.io/github/last-commit/Chizer77/simple-compiler?style=flat-square&labelColor=F87C09&color=F7630C"></a></td></tr></tbody></table>
@@ -92,16 +100,16 @@
 
 <h3 align="center">Recent Stars</h3>
 
-<ul><li><a href=https://github.com/airbnb/javascript>airbnb/javascript</a> <span>JavaScript Style Guide</span></li><li><a href=https://github.com/styled-components/styled-components>styled-components/styled-components</a> <span>Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅</span></li><li><a href=https://github.com/wakatime/blender-wakatime>wakatime/blender-wakatime</a> <span>Blender plugin for automatic time tracking and metrics generated from your programming activity.</span></li><li><a href=https://github.com/fuma-nama/fumadocs>fuma-nama/fumadocs</a> <span>The beautiful docs framework with Next.js.</span></li><li><a href=https://github.com/JIEJOE-Visual/snakeball>JIEJOE-Visual/snakeball</a> <span>SNAKEBALL - 休闲的敏捷类WEB小游戏</span></li></ul>
+<ul><li><a href=https://github.com/Ashutosh00710/github-readme-activity-graph>Ashutosh00710/github-readme-activity-graph</a> <span>A dynamically generated activity graph to show your GitHub activities of last 31 days.</span></li><li><a href=https://github.com/Platane/snk>Platane/snk</a> <span>🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif</span></li><li><a href=https://github.com/walinejs/waline>walinejs/waline</a> <span>💬 A Simple, Safe Comment System</span></li><li><a href=https://github.com/airbnb/javascript>airbnb/javascript</a> <span>JavaScript Style Guide</span></li><li><a href=https://github.com/styled-components/styled-components>styled-components/styled-components</a> <span>Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅</span></li></ul>
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/vqdang/hover_net>vqdang/hover_net</a> <span>Simultaneous Nuclear Instance Segmentation and Classification in H&E Histology Images.</span></li><li><a href=https://github.com/FlowiseAI/Flowise>FlowiseAI/Flowise</a> <span>Drag & drop UI to build your customized LLM flow</span></li><li><a href=https://github.com/xinsir6/ControlNetPlus>xinsir6/ControlNetPlus</a> <span>ControlNet++: All-in-one ControlNet for image generations and editing!</span></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li><li><a href=https://github.com/ferdikoomen/openapi-typescript-codegen>ferdikoomen/openapi-typescript-codegen</a> <span>NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification</span></li></ul>
-
+<ul><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li><li><a href=https://github.com/microsoft/monaco-editor>microsoft/monaco-editor</a> <span>A browser based code editor</span></li><li><a href=https://github.com/comfyanonymous/ComfyUI>comfyanonymous/ComfyUI</a> <span>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></li><li><a href=https://github.com/ali-vilab/MangaNinjia>ali-vilab/MangaNinjia</a> <span>[CVPR 2025 Highlight] Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"</span></li><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li></ul>
+<!-- GitHub Activity Graph -->
 <table width="100%" align="center">
   <tr>
     <td>
-      <picture>
+<!--       <picture>
         <source 
           srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&theme=dark&include_all_commits=true&bg_color=0d1117"
           media="(prefers-color-scheme: dark)"
@@ -111,7 +119,8 @@
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
         <img height="140" src="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true" />
-      </picture>
+      </picture> -->
+      <img height="150px" src="https://github-readme-activity-graph.vercel.app/graph?username=Chizer77&days=20&area=true&hide_border=true&theme=react-dark" />
     </td>
     <td>
       <picture>
@@ -151,4 +160,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 3:39 PM<br>Next on: 5/4/25, 3:39 PM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/3/25, 8:07 PM<br>Next on: 5/4/25, 8:07 PM<br>Power By <i>GitHub Action</i></b></p>
