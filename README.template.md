@@ -22,6 +22,14 @@
 </div>
 <br>
 
+<div align="center">
+  <picture decoding="async" loading="lazy" >
+    <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=false&background=linear-gradient(to%20bottom%20right%2C%20%2374dcc4%2C%20%234597e9)">
+    <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%235580eb%2C%20%232aeeff)">
+    <img alt="github stats" height=250px src="[https://pixel-profile.vercel.app/api/github-stats?username=Chizer77&screen_effect=false&background=linear-gradient(to%20bottom%20right%2C%20%2374dcc4%2C%20%234597e9)](https://pixel-profile.vercel.app/api/github-stats?username=Simon-He95&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb))">
+  </picture>
+</div>
+
 <h3 align="center">My Code Skills</h3>
 
 <h4 align="center">Web Dependencies</h4>
@@ -31,6 +39,7 @@
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
   <img alt="next.js" src="https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white"/>
   <img alt="Shadcn/ui" src="https://img.shields.io/badge/Shadcn%2FUI-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+  <img alt="Axios" src="https://img.shields.io/badge/Axios-671ddf?&style=flat-square&logo=axios&logoColor=white"/>
   <img alt="Vue" src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
   <img alt="Eslint" src="https://img.shields.io/badge/Eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white" />
   <img alt="Json" src="https://img.shields.io/badge/Json-5E5C5C?style=flat-square&logo=json&logoColor=white" />
@@ -77,7 +86,6 @@
   <img alt="UE5" src="https://img.shields.io/badge/UE5-%23313131.svg?style=flat-square&logo=unrealengine&logoColor=white" />
 </p>
 
-
 <h3 align="center">Artworks</h3>
 
 <!-- artworks -->
@@ -97,11 +105,11 @@
 <h3 align="center">Random Stars</h3>
 
 <!-- random_stars -->
-
+<!-- GitHub Activity Graph -->
 <table width="100%" align="center">
   <tr>
     <td>
-      <picture>
+<!--       <picture>
         <source 
           srcset="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&theme=dark&include_all_commits=true&bg_color=0d1117"
           media="(prefers-color-scheme: dark)"
@@ -111,7 +119,8 @@
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
         <img height="140" src="https://github-readme-stats.vercel.app/api?username=chizer77&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true" />
-      </picture>
+      </picture> -->
+      <img height="150px" src="https://github-readme-activity-graph.vercel.app/graph?username=Chizer77&days=20&area=true&hide_border=true&theme=react-dark" />
     </td>
     <td>
       <picture>
