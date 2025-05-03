@@ -111,7 +111,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-    <img width="80%" src="grid-snake.svg" />
+    <img width="100%" src="grid-snake.svg" />
   </picture>
 </div>
 
