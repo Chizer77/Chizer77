@@ -55,6 +55,7 @@
   <img alt="Numpy" src="https://img.shields.io/badge/Numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white" />
   <img alt="Pandas" src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white" />
   <img alt="SciPy" src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat-square&logo=scipy&logoColor=white" />
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=flat-square&logo=Jupyter&logoColor=white" />
   <img alt="HuggingFace" src="https://img.shields.io/badge/-HuggingFace-FFA80F?style=flat-square&logo=HuggingFace&logoColor=white" />
 </p>
 
@@ -62,7 +63,8 @@
 <p align="center">
   <img alt="Git" src="https://img.shields.io/badge/Git-E44C30?style=flat-square&logo=git&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" />
-
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-483699?style=flat-square&logo=Obsidian&logoColor=white" />
+  </br>
   <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" />
   <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat-square&logo=visual-studio-code&logoColor=white" />
   <img alt="Linux" src="https://img.shields.io/badge/Linux-%23000000?style=flat-square&logo=linux&logoColor=white" />
@@ -72,6 +74,7 @@
 <p align="center">
   <img alt="Unity" src="https://img.shields.io/badge/Unity-%23000000.svg?style=flat-square&logo=unity&logoColor=white" />
   <img alt="Blender" src="https://img.shields.io/badge/Blender-%23F5792A.svg?style=flat-square&logo=blender&logoColor=white" />
+  <img alt="UE5" src="https://img.shields.io/badge/UE5-%23313131.svg?style=flat-square&logo=unrealengine&logoColor=white" />
 </p>
 
 
