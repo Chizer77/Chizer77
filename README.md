@@ -92,7 +92,7 @@
 
 <h3 align="center">Toys</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr></tbody></table>
+<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/5/2025</td></tr></tbody></table>
 
 <h3 align="center">Recent Tales</h3>
 
@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/ali-vilab/MangaNinjia>ali-vilab/MangaNinjia</a> <span>[CVPR 2025 Highlight] Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"</span></li><li><a href=https://github.com/deepseek-ai/DeepSeek-R1>deepseek-ai/DeepSeek-R1</a></li><li><a href=https://github.com/umami-software/umami>umami-software/umami</a> <span>Umami is a modern, privacy-focused alternative to Google Analytics.</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li></ul>
+<ul><li><a href=https://github.com/fuma-nama/fumadocs>fuma-nama/fumadocs</a> <span>The beautiful docs framework with Next.js.</span></li><li><a href=https://github.com/aigc3d/LHM>aigc3d/LHM</a> <span>LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds</span></li><li><a href=https://github.com/wakatime/blender-wakatime>wakatime/blender-wakatime</a> <span>Blender plugin for automatic time tracking and metrics generated from your programming activity.</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/vqdang/hover_net>vqdang/hover_net</a> <span>Simultaneous Nuclear Instance Segmentation and Classification in H&E Histology Images.</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/5/25, 9:04 AM<br>Next on: 5/6/25, 9:04 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/6/25, 9:02 AM<br>Next on: 5/7/25, 9:02 AM<br>Power By <i>GitHub Action</i></b></p>
