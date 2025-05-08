@@ -92,7 +92,7 @@
 
 <h3 align="center">Toys</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/6/2025</td></tr></tbody></table>
+<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/7/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr></tbody></table>
 
 <h3 align="center">Recent Tales</h3>
 
@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/ai-dawang/PlugNPlay-Modules>ai-dawang/PlugNPlay-Modules</a></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/comfyanonymous/ComfyUI>comfyanonymous/ComfyUI</a> <span>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></li><li><a href=https://github.com/Crossbell-Box/xLog>Crossbell-Box/xLog</a> <span>🪽 An open-source creative community written on the blockchain.</span></li><li><a href=https://github.com/umami-software/umami>umami-software/umami</a> <span>Umami is a modern, privacy-focused alternative to Google Analytics.</span></li></ul>
+<ul><li><a href=https://github.com/antfu-collective/sponsorkit>antfu-collective/sponsorkit</a> <span>💖 Toolkit for generating sponsors images 😄</span></li><li><a href=https://github.com/pd4d10/bytemd>pd4d10/bytemd</a> <span>ByteMD v1 repository</span></li><li><a href=https://github.com/CompVis/stable-diffusion>CompVis/stable-diffusion</a> <span>A latent text-to-image diffusion model</span></li><li><a href=https://github.com/fuma-nama/fumadocs>fuma-nama/fumadocs</a> <span>The beautiful docs framework with Next.js.</span></li><li><a href=https://github.com/Predidit/Kazumi>Predidit/Kazumi</a> <span>基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/7/25, 9:02 AM<br>Next on: 5/8/25, 9:02 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/8/25, 9:02 AM<br>Next on: 5/9/25, 9:02 AM<br>Power By <i>GitHub Action</i></b></p>
