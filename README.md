@@ -92,7 +92,7 @@
 
 <h3 align="center">Toys</h3>
 
-<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/16/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr></tbody></table>
+<table align=center><thead align=center><tr border: none;><td><b>🎉 Project</b></td><td><b>🌟 Stars</b></td><td><b>🌱 Forks</b></td><td><b>🔥 Last Commit</b></td></tr></thead><tbody><tr><td><a href=https://github.com/Chizer77/Daily_CF_Problems><b>Chizer77/Daily_CF_Problems</b></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Daily_CF_Problems><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Daily_CF_Problems?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/4/2025</td></tr><tr><td><a href=https://github.com/Chizer77/Chizer77><b>Chizer77/Chizer77</b></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Stars src="https://img.shields.io/github/stars/Chizer77/Chizer77?style=flat-square&labelColor=A99700&color=FCE100"></a></td><td><a href=https://github.com/Chizer77/Chizer77><img alt=Forks src="https://img.shields.io/github/forks/Chizer77/Chizer77?style=flat-square&labelColor=6F2C08&&color=84B61D"></a></td><td align=center>5/17/2025</td></tr></tbody></table>
 
 <h3 align="center">Recent Tales</h3>
 
@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/state-spaces/mamba>state-spaces/mamba</a> <span>Mamba SSM architecture</span></li><li><a href=https://github.com/IsshikiHugh/HSMR>IsshikiHugh/HSMR</a> <span>[CVPR25 Oral (Top 3.3%)] Official code for paper "Reconstructing Humans with a Biomechanically Accurate Skeleton".</span></li><li><a href=https://github.com/ZWolken/Light-Novel-Yuedu-Source>ZWolken/Light-Novel-Yuedu-Source</a> <span>轻小说阅读书源合集 輕小説閲讀書源合集</span></li><li><a href=https://github.com/aigc3d/LHM>aigc3d/LHM</a> <span>LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds</span></li><li><a href=https://github.com/CompVis/latent-diffusion>CompVis/latent-diffusion</a> <span>High-Resolution Image Synthesis with Latent Diffusion Models</span></li></ul>
+<ul><li><a href=https://github.com/hyz317/StdGEN>hyz317/StdGEN</a> <span>[CVPR 2025] StdGEN: Semantic-Decomposed 3D Character Generation from Single Images</span></li><li><a href=https://github.com/airbnb/javascript>airbnb/javascript</a> <span>JavaScript Style Guide</span></li><li><a href=https://github.com/SUC-DriverOld/MSST-WebUI>SUC-DriverOld/MSST-WebUI</a> <span>A WebUI app for Music-Source-Separation-Training and we packed UVR together!</span></li><li><a href=https://github.com/fuma-nama/fumadocs>fuma-nama/fumadocs</a> <span>The beautiful docs framework with Next.js.</span></li><li><a href=https://github.com/Ashutosh00710/github-readme-activity-graph>Ashutosh00710/github-readme-activity-graph</a> <span>A dynamically generated activity graph to show your GitHub activities of last 31 days.</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/17/25, 9:01 AM<br>Next on: 5/18/25, 9:01 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/18/25, 9:07 AM<br>Next on: 5/19/25, 9:07 AM<br>Power By <i>GitHub Action</i></b></p>
