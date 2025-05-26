@@ -8,6 +8,7 @@ export const config = {
         limit: 3,
         random: true,
         repos: [
+            "Chizer77/AStar",
             "Chizer77/Chizer77",
             "Chizer77/Daily_CF_Problems",
         ]
