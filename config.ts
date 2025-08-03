@@ -11,6 +11,7 @@ export const config = {
             "Chizer77/AStar",
             "Chizer77/Chizer77",
             "Chizer77/Daily_CF_Problems",
+            "Chizer77/ContestOCR",
         ]
     },
     // codeforces
@@ -22,3 +23,4 @@ export const config = {
     timeZone: "Asia/Shanghai",
 }
 export const motto = "「いいよ」"
+
