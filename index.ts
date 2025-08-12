@@ -12,7 +12,6 @@ const GITHUB_API_BASE_URL = 'https://api.github.com'
 
 const userAgent = 'Mozilla / 5.0(Windows NT 10.0; Win64; x64) AppleWebKit / 537.36(KHTML, like Gecko) Chrome / 135.0.0.0 Safari / 537.36 Edg / 135.0.0.0'
 axios.defaults.headers.common['User-Agent'] = userAgent
-reax.attach()
 axios.defaults.raxConfig = {
     retry: 5,
     retryDelay: 4000,
@@ -187,3 +186,4 @@ async function main() {
 }
 
 main()
+
