@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/arcxingye/EatKano>arcxingye/EatKano</a> <span>H5 Games</span></li><li><a href=https://github.com/styled-components/styled-components>styled-components/styled-components</a> <span>Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅</span></li><li><a href=https://github.com/SchaleDB/SchaleDB>SchaleDB/SchaleDB</a> <span>Database for the mobile game Blue Archive.</span></li><li><a href=https://github.com/huggingface/diffusers>huggingface/diffusers</a> <span>🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.</span></li><li><a href=https://github.com/Platane/snk>Platane/snk</a> <span>🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif</span></li></ul>
+<ul><li><a href=https://github.com/n8n-io/n8n>n8n-io/n8n</a> <span>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</span></li><li><a href=https://github.com/antonkomarev/github-profile-views-counter>antonkomarev/github-profile-views-counter</a> <span>It counts how many times your GitHub profile has been viewed. Free cloud micro-service.</span></li><li><a href=https://github.com/airbnb/javascript>airbnb/javascript</a> <span>JavaScript Style Guide</span></li><li><a href=https://github.com/SchaleDB/SchaleDB>SchaleDB/SchaleDB</a> <span>Database for the mobile game Blue Archive.</span></li><li><a href=https://github.com/ayangweb/BongoCat>ayangweb/BongoCat</a> <span>🐱 跨平台桌宠 BongoCat，为桌面增添乐趣！</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 9/10/25, 8:57 AM<br>Next on: 9/11/25, 8:57 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 9/11/25, 8:59 AM<br>Next on: 9/12/25, 8:59 AM<br>Power By <i>GitHub Action</i></b></p>
