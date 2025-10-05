@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/Bietol/HalfneMiku>Bietol/HalfneMiku</a> <span>Halfne Miku Studio</span></li><li><a href=https://github.com/SchaleDB/SchaleDB>SchaleDB/SchaleDB</a> <span>Database for the mobile game Blue Archive.</span></li><li><a href=https://github.com/WhatIsThisG/BlueDivision_Release>WhatIsThisG/BlueDivision_Release</a> <span>A fanmade blue archive game heavily inspired by 'Tom Clancy's The Division'.</span></li><li><a href=https://github.com/Platane/snk>Platane/snk</a> <span>🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif</span></li><li><a href=https://github.com/Ashutosh00710/github-readme-activity-graph>Ashutosh00710/github-readme-activity-graph</a> <span>A dynamically generated activity graph to show your GitHub activities of last 31 days.</span></li></ul>
+<ul><li><a href=https://github.com/ayangweb/BongoCat>ayangweb/BongoCat</a> <span>🐱 跨平台桌宠 BongoCat，为桌面增添乐趣！</span></li><li><a href=https://github.com/obsidianmd/obsidian-releases>obsidianmd/obsidian-releases</a> <span>Community plugins list, theme list, and releases of Obsidian.</span></li><li><a href=https://github.com/ZWolken/Light-Novel-Yuedu-Source>ZWolken/Light-Novel-Yuedu-Source</a> <span>轻小说阅读书源合集 輕小説閲讀書源合集</span></li><li><a href=https://github.com/PrimeStudentCouncil/BlueArchiveGM>PrimeStudentCouncil/BlueArchiveGM</a> <span>嗯姆，蜂蜜蛋糕的话……比起草莓牛奶……香蕉牛奶更……我吃不了这么多啦……</span></li><li><a href=https://github.com/nulla2011/bluearchive-logo>nulla2011/bluearchive-logo</a> <span>A Blue Archive logo generator.</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 10/4/25, 8:55 AM<br>Next on: 10/5/25, 8:55 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 10/5/25, 9:03 AM<br>Next on: 10/6/25, 9:03 AM<br>Power By <i>GitHub Action</i></b></p>
