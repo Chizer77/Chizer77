@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/airbnb/javascript>airbnb/javascript</a> <span>JavaScript Style Guide</span></li><li><a href=https://github.com/SlimeBoyOwO/LingChat>SlimeBoyOwO/LingChat</a> <span>GPT chat with emotional expressions.</span></li><li><a href=https://github.com/jackyzha0/quartz>jackyzha0/quartz</a> <span>🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites</span></li><li><a href=https://github.com/yurafuca/5000choyen>yurafuca/5000choyen</a> <span>5000choyen generator</span></li><li><a href=https://github.com/antonkomarev/github-profile-views-counter>antonkomarev/github-profile-views-counter</a> <span>It counts how many times your GitHub profile has been viewed. Free cloud micro-service.</span></li></ul>
+<ul><li><a href=https://github.com/ayangweb/BongoCat>ayangweb/BongoCat</a> <span>🐱 跨平台桌宠 BongoCat，为桌面增添乐趣！</span></li><li><a href=https://github.com/Bietol/HalfneMiku>Bietol/HalfneMiku</a> <span>Halfne Miku Studio</span></li><li><a href=https://github.com/U1805/momotalk>U1805/momotalk</a> <span>Blue Archive Momotalk Editor | 碧蓝档案Momotalk编辑器</span></li><li><a href=https://github.com/ttttonyhe/ouorz-mono>ttttonyhe/ouorz-mono</a> <span>A Monorepo for My ( :earth_asia: Personal Website / :microscope: Academic Profile ) and { Other Related Projects }</span></li><li><a href=https://github.com/SlimeBoyOwO/LingChat>SlimeBoyOwO/LingChat</a> <span>GPT chat with emotional expressions.</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 10/31/25, 9:01 AM<br>Next on: 11/1/25, 9:01 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 11/1/25, 9:05 AM<br>Next on: 11/2/25, 9:05 AM<br>Power By <i>GitHub Action</i></b></p>
