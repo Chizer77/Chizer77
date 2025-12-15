@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/yinleiCoder/cs2-cpp>yinleiCoder/cs2-cpp</a> <span>C++: CS2游戏外挂-内部注入</span></li><li><a href=https://github.com/topjohnwu/Magisk>topjohnwu/Magisk</a> <span>The Magic Mask for Android</span></li><li><a href=https://github.com/PrimeStudentCouncil/BlueArchiveGM>PrimeStudentCouncil/BlueArchiveGM</a> <span>嗯姆，蜂蜜蛋糕的话……比起草莓牛奶……香蕉牛奶更……我吃不了这么多啦……</span></li><li><a href=https://github.com/WhatIsThisG/BlueDivision_Release>WhatIsThisG/BlueDivision_Release</a> <span>A fanmade blue archive game heavily inspired by 'Tom Clancy's The Division'.</span></li><li><a href=https://github.com/clash-verge-rev/clash-verge-rev>clash-verge-rev/clash-verge-rev</a> <span>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</span></li></ul>
+<ul><li><a href=https://github.com/antonkomarev/github-profile-views-counter>antonkomarev/github-profile-views-counter</a> <span>It counts how many times your GitHub profile has been viewed. Free cloud micro-service.</span></li><li><a href=https://github.com/Bietol/HalfneMiku>Bietol/HalfneMiku</a> <span>Halfne Miku Studio</span></li><li><a href=https://github.com/huggingface/diffusers>huggingface/diffusers</a> <span>🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.</span></li><li><a href=https://github.com/U1805/momotalk>U1805/momotalk</a> <span>Blue Archive Momotalk Editor | 碧蓝档案Momotalk编辑器</span></li><li><a href=https://github.com/topjohnwu/Magisk>topjohnwu/Magisk</a> <span>The Magic Mask for Android</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 12/13/25, 9:02 AM<br>Next on: 12/14/25, 9:02 AM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 12/15/25, 9:09 AM<br>Next on: 12/16/25, 9:09 AM<br>Power By <i>GitHub Action</i></b></p>
