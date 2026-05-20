@@ -104,7 +104,7 @@
 
 <h3 align="center">Random Stars</h3>
 
-<ul><li><a href=https://github.com/microsoft/UFO>microsoft/UFO</a> <span>UFO³: Weaving the Digital Agent Galaxy</span></li><li><a href=https://github.com/github/spec-kit>github/spec-kit</a> <span>💫 Toolkit to help you get started with Spec-Driven Development</span></li><li><a href=https://github.com/AssetRipper/AssetRipper>AssetRipper/AssetRipper</a> <span>GUI Application to work with engine assets, asset bundles, and serialized files</span></li><li><a href=https://github.com/nesrak1/UABEA>nesrak1/UABEA</a> <span>c# uabe for newer versions of unity</span></li><li><a href=https://github.com/affaan-m/ECC>affaan-m/ECC</a> <span>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</span></li></ul>
+<ul><li><a href=https://github.com/nextlevelbuilder/ui-ux-pro-max-skill>nextlevelbuilder/ui-ux-pro-max-skill</a> <span>An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</span></li><li><a href=https://github.com/HKUDS/nanobot>HKUDS/nanobot</a> <span>Lightweight, open-source AI agent for your tools, chats, and workflows.</span></li><li><a href=https://github.com/anomalyco/opencode>anomalyco/opencode</a> <span>The open source coding agent.</span></li><li><a href=https://github.com/chenglou/pretext>chenglou/pretext</a> <span>Fast, accurate & comprehensive text measurement & layout</span></li><li><a href=https://github.com/openclaw/openclaw>openclaw/openclaw</a> <span>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</span></li></ul>
 
 
 <div align="center">
@@ -169,4 +169,4 @@
 </p>
 
 <p align=center><b>「いいよ」</b></p>
-<p align=center><b>24h Auto-Update<br>Last on: 5/19/26, 12:27 PM<br>Next on: 5/20/26, 12:27 PM<br>Power By <i>GitHub Action</i></b></p>
+<p align=center><b>24h Auto-Update<br>Last on: 5/20/26, 10:36 AM<br>Next on: 5/21/26, 10:36 AM<br>Power By <i>GitHub Action</i></b></p>
