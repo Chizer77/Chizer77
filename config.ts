@@ -2,7 +2,7 @@ export const config = {
     github: "Chizer77",
     subName: "0x7C00H",
     artworks: [
-        "Chizer77/simple-compiler",
+        "Chizer77/sk-loadout"
     ],
     toys: {
         limit: 3,
@@ -12,7 +12,8 @@ export const config = {
             "Chizer77/Chizer77",
             // "Chizer77/Daily_CF_Problems",
             "Chizer77/ContestOCR",
-            "Chizer77/GalSkill"
+            "Chizer77/GalSkill",
+            "Chizer77/simple-compiler"
         ]
     },
     // codeforces
