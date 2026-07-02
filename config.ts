@@ -13,7 +13,8 @@ export const config = {
             // "Chizer77/Daily_CF_Problems",
             "Chizer77/ContestOCR",
             "Chizer77/GalSkill",
-            "Chizer77/simple-compiler"
+            "Chizer77/simple-compiler",
+            "Chizer77/household_power_forecasting"
         ]
     },
     // codeforces
