@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@types/html-minifier':
-        specifier: 4.0.5
-        version: 4.0.5
+        specifier: 4.0.6
+        version: 4.0.6
       '@types/lodash-es':
         specifier: 4.17.12
         version: 4.17.12
@@ -316,8 +316,8 @@ packages:
   '@types/clean-css@4.2.11':
     resolution: {integrity: sha512-Y8n81lQVTAfP2TOdtJJEsCoYl1AnOkqDqMvXb9/7pfgZZ7r8YrEyurrAvAoAjHOGXKRybay+5CsExqIH6liccw==}
 
-  '@types/html-minifier@4.0.5':
-    resolution: {integrity: sha512-LfE7f7MFd+YUfZnlBz8W43P4NgSObWiqyKapANsWCj63Aqeqli8/9gVsGP4CwC8jPpTTYlTopKCk9rJSuht/ew==}
+  '@types/html-minifier@4.0.6':
+    resolution: {integrity: sha512-1Dcf38DkVMYo8SIOkUka7GxI+0BztCVsnfiG2Sxb6G8ShHDQTWQb1WKps/eb3O074HNDCn8wU7LMl5N99nNG+Q==}
 
   '@types/linkify-it@5.0.0':
     resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
@@ -792,7 +792,7 @@ snapshots:
       '@types/node': 20.17.32
       source-map: 0.6.1
 
-  '@types/html-minifier@4.0.5':
+  '@types/html-minifier@4.0.6':
     dependencies:
       '@types/clean-css': 4.2.11
       '@types/relateurl': 0.2.33
