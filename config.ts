@@ -14,7 +14,8 @@ export const config = {
             "Chizer77/ContestOCR",
             "Chizer77/GalSkill",
             "Chizer77/simple-compiler",
-            "Chizer77/household_power_forecasting"
+            "Chizer77/household_power_forecasting",
+            "Chizer77/Memory-of-Memorie-Codex-Bridge"
         ]
     },
     // codeforces
