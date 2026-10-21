@@ -136,11 +136,11 @@ export type GitHubStats = {
  */
 export type GitHubFetchError = {
   kind:
-    | "invalid-username"
-    | "not-found"
-    | "rate-limited"
-    | "network"
-    | "unknown";
+  | "invalid-username"
+  | "not-found"
+  | "rate-limited"
+  | "network"
+  | "unknown";
   message: string;
   resetAt?: number;
 };

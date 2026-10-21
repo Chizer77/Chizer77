@@ -146,7 +146,7 @@ type GqlUser = {
 
 type GqlResponse = {
   data?: { user: GqlUser | null };
-  errors?: Array<{ message: string; type?: string }>;
+  errors?: Array<{ message: string; type?: string; path?: Array<string | number> }>;
 };
 
 export async function fetchViaGraphQL(
@@ -211,14 +211,16 @@ export async function fetchViaGraphQL(
         message: `@${username} not found on GitHub.`,
       });
     }
-    const message = body.errors.map((e) => e.message).join("; ");
-    const tokenAccessError = /resource not accessible by personal access token/i.test(
+    const message = body.errors.map((e) =>
+      `${e.message}${e.path?.length ? ` [${e.path.join(".")}]` : ""}`,
+    ).join("; ");
+    const tokenAccessError = /resource not accessible by (?:personal access token|integration)/i.test(
       message,
     );
     throw new GithubFetchException({
       kind: "unknown",
       message: tokenAccessError
-        ? "GitHub accepted GITHUB_TOKEN, but the token cannot access one or more GraphQL stats fields. Use a classic PAT with no scopes, or broaden the fine-grained token permissions/resource access."
+        ? `${message}. GitHub accepted the token, but denied access to these GraphQL fields. Check the token permissions and resource access.`
         : message,
     });
   }

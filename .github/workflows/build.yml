@@ -44,7 +44,10 @@ jobs:
           outputs: |
             github-snake-dark.svg?palette=github-dark
       - name: Update GitHub data and terminal SVG
-        run: pnpm profile:refresh
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          pnpm profile:refresh
       - name: Build README
         run: pnpm build
       - name: Update sponsors
