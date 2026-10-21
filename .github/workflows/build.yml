@@ -1,89 +1,68 @@
-name: README build
+name: Retro README build
 
 on:
   push:
-    branches:
-      - main
+    branches: [retro]
   schedule:
-    - cron: '0 */24 * * *'
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-build-retro
+  cancel-in-progress: false
 
 jobs:
   build:
+    # 只有当前启用的主页版本才自动更新，手动选择其他分支也不会误写。
+    if: github.ref == 'refs/heads/retro' && github.event.repository.default_branch == 'retro'
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [23.x]
-
+    timeout-minutes: 15
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SPONSORKIT_AFDIAN_TOKEN: ${{ secrets.SPONSORKIT_AFDIAN_TOKEN }}
+      SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-
+          ref: retro
       - name: Install pnpm
         uses: pnpm/action-setup@v4.4.0
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          run_install: true
-
-      - name: Cache pnpm modules
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-pnpm-modules
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
-
-      - name: Build project
-        run: |
-          npm run build
-
-      - name: Update Sponsor
-        run: |
-          npx sponsorkit
-        env:
-          SPONSORKIT_AFDIAN_TOKEN: ${{ secrets.SPONSORKIT_AFDIAN_TOKEN }}
-          SPONSORKIT_AFDIAN_USER_ID: f6bca0fc272711f0aace52540025c377
-          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-          SPONSORKIT_GITHUB_LOGIN: Chizer77
-
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main'
-
-      - name: generate github-contribution-grid-snake.svg
+          node-version: '24'
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      # 先生成原版路径，再内嵌进终端，避免主页使用上一轮的蛇动画。
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
-          # github user name to read the contribution graph from (**required**)
-          # using action context var `github.repository_owner` or specified user
           github_user_name: ${{ github.repository_owner }}
-      
-          # list of files to generate.
-          # one file per line. Each output can be customized with options as query string.
-          #
-          #  supported options:
-          #  - palette:     A preset of color, one of [github, github-dark, github-light]
-          #  - color_snake: Color of the snake
-          #  - color_dots:  Coma separated list of dots color.
-          #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
-          #                 Exactly 5 colors are expected.
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-      
-      - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: main
-          build_dir: dist
-          keep_history: true
+            github-snake-dark.svg?palette=github-dark
+      - name: Update GitHub data and terminal SVG
+        run: pnpm profile:refresh
+      - name: Build README
+        run: pnpm build
+      - name: Update sponsors
+        if: env.SPONSORKIT_GITHUB_TOKEN != '' || env.SPONSORKIT_AFDIAN_TOKEN != ''
+        run: pnpm exec sponsorkit
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SPONSORKIT_AFDIAN_USER_ID: f6bca0fc272711f0aace52540025c377
+          SPONSORKIT_GITHUB_LOGIN: Chizer77
+      # 所有生成物一次性提交回 retro，避免覆盖另一版本的主页。
+      - name: Commit generated files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md index.html assets/profile/profile.svg scripts/profile/github.json
+          git add github-snake-dark.svg
+          git add sponsorkit
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: update README and profile assets"
+          git push origin HEAD:refs/heads/retro

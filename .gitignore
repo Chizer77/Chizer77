@@ -136,3 +136,7 @@ dist
 .pnp.*
 
 sponsorkit/.cache.json
+
+# Python animation tools
+__pycache__/
+*.py[cod]

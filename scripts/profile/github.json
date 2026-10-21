@@ -1,0 +1,123 @@
+{
+  "username": "Chizer77",
+  "fetchedAt": 1792569297548,
+  "source": "rest-unauth",
+  "profile": {
+    "name": "0x7C00H",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/97499725?v=4",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "htmlUrl": "https://github.com/Chizer77",
+    "followers": 3,
+    "following": 13,
+    "publicRepos": 26,
+    "publicGists": 0,
+    "createdAt": "2022-01-11T05:37:42Z"
+  },
+  "totals": {
+    "starsReceived": 4,
+    "forksReceived": 0,
+    "repoCount": 12,
+    "starsGiven": 0,
+    "commitsThisYear": null,
+    "restrictedContributions": null,
+    "prsAuthored": null,
+    "prsThisYear": null,
+    "issuesAuthored": null,
+    "issuesThisYear": null,
+    "reviewsThisYear": null
+  },
+  "topRepos": [
+    {
+      "name": "Memory-of-Memorie-Codex-Bridge",
+      "fullName": "Chizer77/Memory-of-Memorie-Codex-Bridge",
+      "description": null,
+      "language": "C#",
+      "languageColor": null,
+      "stars": 3,
+      "forks": 0,
+      "htmlUrl": "https://github.com/Chizer77/Memory-of-Memorie-Codex-Bridge",
+      "isArchived": false
+    },
+    {
+      "name": "GalSkill",
+      "fullName": "Chizer77/GalSkill",
+      "description": "Tracing a girl's heartbeat into skills.",
+      "language": "TypeScript",
+      "languageColor": null,
+      "stars": 1,
+      "forks": 0,
+      "htmlUrl": "https://github.com/Chizer77/GalSkill",
+      "isArchived": false
+    },
+    {
+      "name": "Chizer77",
+      "fullName": "Chizer77/Chizer77",
+      "description": "Config files for my GitHub profile.",
+      "language": "HTML",
+      "languageColor": null,
+      "stars": 0,
+      "forks": 0,
+      "htmlUrl": "https://github.com/Chizer77/Chizer77",
+      "isArchived": false
+    },
+    {
+      "name": "sha-yue-shi-mao-svg-template",
+      "fullName": "Chizer77/sha-yue-shi-mao-svg-template",
+      "description": null,
+      "language": "JavaScript",
+      "languageColor": null,
+      "stars": 0,
+      "forks": 0,
+      "htmlUrl": "https://github.com/Chizer77/sha-yue-shi-mao-svg-template",
+      "isArchived": false
+    },
+    {
+      "name": "sk-loadout",
+      "fullName": "Chizer77/sk-loadout",
+      "description": "Terminal skills manager for AI Agent.",
+      "language": "TypeScript",
+      "languageColor": null,
+      "stars": 0,
+      "forks": 0,
+      "htmlUrl": "https://github.com/Chizer77/sk-loadout",
+      "isArchived": false
+    }
+  ],
+  "pinnedRepos": [],
+  "languages": [
+    {
+      "name": "C++",
+      "bytes": 3,
+      "color": null,
+      "percentage": 27.3
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 2,
+      "color": null,
+      "percentage": 18.2
+    },
+    {
+      "name": "Python",
+      "bytes": 2,
+      "color": null,
+      "percentage": 18.2
+    },
+    {
+      "name": "HTML",
+      "bytes": 1,
+      "color": null,
+      "percentage": 9.1
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 1,
+      "color": null,
+      "percentage": 9.1
+    }
+  ],
+  "contributionCalendar": null
+}

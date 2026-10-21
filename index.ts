@@ -147,36 +147,38 @@ function minifyHTML(html: TemplateStringsArray, ...args: any[]) {
 async function main() {
     let newReadme = await readFile('./README.template.md', { encoding: 'utf-8' })
 
+    // 暂停这些模块的取数与占位生成；恢复时同步启用下方注入调用。
     // 获取代表项目详情
-    const artworksDetail = await Promise.all(
-        config.artworks.map((name) => {
-            return gh.get('/repos/' + name).then((data) => data.data)
-        }),
-    )
+    // const artworksDetail = await Promise.all(
+    //     config.artworks.map((name) => {
+    //         return gh.get('/repos/' + name).then((data) => data.data)
+    //     }),
+    // )
 
     // 获取有趣项目详情
-    const limit = config.toys.limit
-    const toys = config.toys.random ? shuffle(config.toys.repos).slice(0, limit) : config.toys.repos.slice(0, limit)
-    const toysDetail = await Promise.all(
-        toys.map((name) => {
-            return gh.get('/repos/' + name).then((data) => data.data)
-        }),
-    )
+    // const limit = config.toys.limit
+    // const toys = config.toys.random ? shuffle(config.toys.repos).slice(0, limit) : config.toys.repos.slice(0, limit)
+    // const toysDetail = await Promise.all(
+    //     toys.map((name) => {
+    //         return gh.get('/repos/' + name).then((data) => data.data)
+    //     }),
+    // )
 
-    // 获取 Stared 项目
-    const star: any[] = await gh.get('/users/' + config.github + '/starred').then((data) => data.data)
+    // 获取 Star 项目
+    // const star: any[] = await gh.get('/users/' + config.github + '/starred').then((data) => data.data)
 
     // TODO: 获取最近 tales
-    const recentTales = minifyHTML`<p align=center>In progress...</p>`;
+    // const recentTales = minifyHTML`<p align=center>In progress...</p>`;
 
     // 注入HTML
-    newReadme = newReadme.replace(gp('ARTWORKS'), generateArtworksHtml(artworksDetail))
-        .replace(gp('TOYS'), generateToysHTML(toysDetail))
-        .replace(gp('RECENT_STARS'), generateStarsHTML(star, 'common', 5))
-        .replace(gp('RANDOM_STARS'), generateStarsHTML(star, 'random', 5))
-        .replace(gp('RECENT_TALES'), recentTales)
-        .replace(gp('MOTTO'), minifyHTML`<p align=center><b>${motto}</b></p>`)
-        .replace(gp('FOOTER'), generateFooterHTML())
+    newReadme = newReadme
+        // .replace(gp('ARTWORKS'), generateArtworksHtml(artworksDetail))
+        // .replace(gp('TOYS'), generateToysHTML(toysDetail))
+        // .replace(gp('RECENT_STARS'), generateStarsHTML(star, 'common', 5))
+        // .replace(gp('RANDOM_STARS'), generateStarsHTML(star, 'random', 5))
+        // .replace(gp('RECENT_TALES'), recentTales)
+        .replace(gp('MOTTO'), minifyHTML`<p align="center">「<strong><samp><strong>${motto}</strong></samp></strong>」</p>`)
+    // .replace(gp('FOOTER'), generateFooterHTML())
 
     await rm('./README.md', { force: true })
     await writeFile('./README.md', newReadme, { encoding: 'utf-8' })
