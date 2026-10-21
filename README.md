@@ -33,7 +33,7 @@
 
 <!-- terminal-profile -->
 <p align="center">
-  <img src="assets/profile/profile.svg" width="70%" alt="" />
+  <img src="assets/profile/profile.svg" width="80%" alt="" />
 </p>
 <!-- /terminal-profile -->
 <p align="center">
