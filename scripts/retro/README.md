@@ -23,5 +23,5 @@ python -B scripts/retro/phorni/generate.py
 
 | 角色 | 参考 |
 | --- | --- |
-| 乌鸦（カラス，HELLO WORLD） | [角色与主图](https://bangumi.tv/character/71911) · [角色图片集](https://bangumi.tv/character/71911/album) |
-| 芙铃（Phorni） | [角色与主图](https://bangumi.tv/character/418) · [动作参考 16857](https://bangumi.tv/character/418/photo/16857) · [动作参考 9755](https://bangumi.tv/character/418/photo/9755) |
+| 乌鸦（カラス，HELLO WORLD） | [角色](https://bangumi.tv/character/71911) · [图集](https://bangumi.tv/character/71911/album) |
+| 芙铃（Phorni） | [角色](https://bangumi.tv/character/418) · [动作参考 1](https://bangumi.tv/character/418/photo/16857) · [动作参考 2](https://bangumi.tv/character/418/photo/9755) |
