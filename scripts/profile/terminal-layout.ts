@@ -30,15 +30,14 @@ export function terminalBody(source: string, final: boolean) {
   while (root.firstChild && root.firstChild !== title) root.removeChild(root.firstChild)
   root.removeChild(title)
   if (!final) removePrompt(root)
-  // 页脚统计随最后的 ready 一起显示，避免后续输出尚未完成时提前出现。
   if (final) {
-    const groups = Array.from(root.getElementsByTagName('g'))
-    const ready = groups.find(node => node.getElementsByTagName('rect').length > 0)
     const footer = Array.from(root.getElementsByTagName('text')).find(node => node.getAttribute('text-anchor') === 'end')
-    if (ready && footer) footer.setAttribute('class', ready.getAttribute('class')!)
+    footer?.parentNode?.removeChild(footer)
   }
   const children = Array.from(root.childNodes).filter(node => node.nodeType === 1) as Element[]
   const positions = children.map(baseline).filter(Number.isFinite)
-  return { css, fontSize, top: Math.min(...positions), bottom: Math.max(...positions),
-    body: children.map(node => serializer.serializeToString(node)).join('\n') }
+  return {
+    css, fontSize, top: Math.min(...positions), bottom: Math.max(...positions),
+    body: children.map(node => serializer.serializeToString(node)).join('\n')
+  }
 }

@@ -1,159 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1007.5" viewBox="0 0 800 1007.5" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="981.5" viewBox="0 0 800 981.5" role="img" aria-labelledby="title description">
 <title id="title">Chizer — Terminal profile</title>
 <desc id="description">Identity, about.md, skills and github.sh appear in order and remain visible. GitHub data is a build-time snapshot.</desc>
 <style>text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; dominant-baseline: middle; }</style>
 <rect width="100%" height="100%" fill="#0a0a0b" rx="6" ry="6" xmlns="http://www.w3.org/2000/svg"/>
 <style>
     #terminal-header text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; dominant-baseline: middle; }
-    @keyframes terminal-header-ln0 { 0%,0.000000% { opacity: 0 } 1.334816%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln1 { 0%,2.002225% { opacity: 0 } 3.337041%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln2 { 0%,4.004449% { opacity: 0 } 5.339266%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln3 { 0%,6.006674% { opacity: 0 } 7.341491%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln4 { 0%,8.008899% { opacity: 0 } 9.343715%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln5 { 0%,10.011123% { opacity: 0 } 11.345940%,100% { opacity: 1 } }
-    @keyframes terminal-header-ln6 { 0%,12.013348% { opacity: 0 } 13.348165%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln0 { 0%,0.000000% { opacity: 0 } 1.357466%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln1 { 0%,2.036199% { opacity: 0 } 3.393665%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln2 { 0%,4.072398% { opacity: 0 } 5.429864%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln3 { 0%,6.108597% { opacity: 0 } 7.466063%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln4 { 0%,8.144796% { opacity: 0 } 9.502262%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln5 { 0%,10.180995% { opacity: 0 } 11.538462%,100% { opacity: 1 } }
+    @keyframes terminal-header-ln6 { 0%,12.217195% { opacity: 0 } 13.574661%,100% { opacity: 1 } }
     @keyframes terminal-header-blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    .terminal-header-ln0 { animation: terminal-header-ln0 17.98s ease-in-out both }
-    .terminal-header-ln1 { animation: terminal-header-ln1 17.98s ease-in-out both }
-    .terminal-header-ln2 { animation: terminal-header-ln2 17.98s ease-in-out both }
-    .terminal-header-ln3 { animation: terminal-header-ln3 17.98s ease-in-out both }
-    .terminal-header-ln4 { animation: terminal-header-ln4 17.98s ease-in-out both }
-    .terminal-header-ln5 { animation: terminal-header-ln5 17.98s ease-in-out both }
-    .terminal-header-ln6 { animation: terminal-header-ln6 17.98s ease-in-out both }
+    .terminal-header-ln0 { animation: terminal-header-ln0 17.68s ease-in-out both }
+    .terminal-header-ln1 { animation: terminal-header-ln1 17.68s ease-in-out both }
+    .terminal-header-ln2 { animation: terminal-header-ln2 17.68s ease-in-out both }
+    .terminal-header-ln3 { animation: terminal-header-ln3 17.68s ease-in-out both }
+    .terminal-header-ln4 { animation: terminal-header-ln4 17.68s ease-in-out both }
+    .terminal-header-ln5 { animation: terminal-header-ln5 17.68s ease-in-out both }
+    .terminal-header-ln6 { animation: terminal-header-ln6 17.68s ease-in-out both }
   
 @keyframes terminal-header-show { 0%,0.000000% { opacity: 0 } 0.000001%,100% { opacity: 1 } }
-#terminal-header { animation: terminal-header-show 17.98s steps(1,end) both }</style><g id="terminal-header" font-size="14" transform="translate(0 -52)"><g class="terminal-header-ln0" transform="translate(40 96)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">./identity --reveal</text></g>
+#terminal-header { animation: terminal-header-show 17.68s steps(1,end) both }</style><g id="terminal-header" font-size="14" transform="translate(0 -52)"><g class="terminal-header-ln0" transform="translate(40 96)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">./identity --reveal</text></g>
 <g class="terminal-header-ln2" transform="translate(40 140)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">name</text><text x="104" fill="#e7e7ea">Chizer</text></g>
 <g class="terminal-header-ln3" transform="translate(40 162)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">role</text><text x="104" fill="#e7e7ea">Software Engineer</text></g>
 <g class="terminal-header-ln4" transform="translate(40 184)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">tagline</text><text x="104" fill="#e7e7ea">NO CODE NO LIFE</text></g></g>
 <style>
     #terminal-about text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; dominant-baseline: middle; }
-    @keyframes terminal-about-ln0 { 0%,11.568409% { opacity: 0 } 12.903226%,100% { opacity: 1 } }
-    @keyframes terminal-about-ln1 { 0%,14.238042% { opacity: 0 } 15.572859%,100% { opacity: 1 } }
-    @keyframes terminal-about-ln2 { 0%,16.907675% { opacity: 0 } 18.242492%,100% { opacity: 1 } }
-    @keyframes terminal-about-ln3 { 0%,19.577308% { opacity: 0 } 20.912125%,100% { opacity: 1 } }
-    @keyframes terminal-about-ln4 { 0%,22.246941% { opacity: 0 } 23.581758%,100% { opacity: 1 } }
-    @keyframes terminal-about-ln5 { 0%,24.916574% { opacity: 0 } 26.251390%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln0 { 0%,11.764706% { opacity: 0 } 13.122172%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln1 { 0%,14.479638% { opacity: 0 } 15.837104%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln2 { 0%,17.194570% { opacity: 0 } 18.552036%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln3 { 0%,19.909502% { opacity: 0 } 21.266968%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln4 { 0%,22.624434% { opacity: 0 } 23.981900%,100% { opacity: 1 } }
+    @keyframes terminal-about-ln5 { 0%,25.339367% { opacity: 0 } 26.696833%,100% { opacity: 1 } }
     @keyframes terminal-about-blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    .terminal-about-ln0 { animation: terminal-about-ln0 17.98s ease-in-out both }
-    .terminal-about-ln1 { animation: terminal-about-ln1 17.98s ease-in-out both }
-    .terminal-about-ln2 { animation: terminal-about-ln2 17.98s ease-in-out both }
-    .terminal-about-ln3 { animation: terminal-about-ln3 17.98s ease-in-out both }
-    .terminal-about-ln4 { animation: terminal-about-ln4 17.98s ease-in-out both }
-    .terminal-about-ln5 { animation: terminal-about-ln5 17.98s ease-in-out both }
+    .terminal-about-ln0 { animation: terminal-about-ln0 17.68s ease-in-out both }
+    .terminal-about-ln1 { animation: terminal-about-ln1 17.68s ease-in-out both }
+    .terminal-about-ln2 { animation: terminal-about-ln2 17.68s ease-in-out both }
+    .terminal-about-ln3 { animation: terminal-about-ln3 17.68s ease-in-out both }
+    .terminal-about-ln4 { animation: terminal-about-ln4 17.68s ease-in-out both }
+    .terminal-about-ln5 { animation: terminal-about-ln5 17.68s ease-in-out both }
   
-@keyframes terminal-about-show { 0%,11.568409% { opacity: 0 } 11.568410%,100% { opacity: 1 } }
-#terminal-about { animation: terminal-about-show 17.98s steps(1,end) both }</style><g id="terminal-about" font-size="14" transform="translate(0 108)"><g class="terminal-about-ln0" transform="translate(40 68)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">cat ~/about.md</text></g>
+@keyframes terminal-about-show { 0%,11.764706% { opacity: 0 } 11.764707%,100% { opacity: 1 } }
+#terminal-about { animation: terminal-about-show 17.68s steps(1,end) both }</style><g id="terminal-about" font-size="14" transform="translate(0 108)"><g class="terminal-about-ln0" transform="translate(40 68)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">cat ~/about.md</text></g>
 <g class="terminal-about-ln1" transform="translate(40 112)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">Hi, I'm Chizer</text></g>
 <g class="terminal-about-ln2" transform="translate(40 134)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">Agents, LLMs, Fintune, Infer, Infra, Now in Continuous Learning...</text></g>
 <g class="terminal-about-ln3" transform="translate(40 178)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">tags</text></g>
 <g class="terminal-about-ln4" transform="translate(40 200)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[ Software Engineer ]  [ AI Engineer ]  [ VibeCoder ]</text></g></g>
 <style>#terminal-skills text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; dominant-baseline: middle; }
-@keyframes terminal-skills-tchip0 { 0%,28.476085% { opacity: 0 } 29.810901%,100% { opacity: 1 } }
-.terminal-skills-tchip0 { animation: terminal-skills-tchip0 17.98s ease-out both; }
-@keyframes terminal-skills-tchip1 { 0%,30.144605% { opacity: 0 } 31.479422%,100% { opacity: 1 } }
-.terminal-skills-tchip1 { animation: terminal-skills-tchip1 17.98s ease-out both; }
-@keyframes terminal-skills-tchip2 { 0%,31.813126% { opacity: 0 } 33.147942%,100% { opacity: 1 } }
-.terminal-skills-tchip2 { animation: terminal-skills-tchip2 17.98s ease-out both; }
-@keyframes terminal-skills-tchip3 { 0%,33.481646% { opacity: 0 } 34.816463%,100% { opacity: 1 } }
-.terminal-skills-tchip3 { animation: terminal-skills-tchip3 17.98s ease-out both; }
-@keyframes terminal-skills-tchip4 { 0%,35.150167% { opacity: 0 } 36.484983%,100% { opacity: 1 } }
-.terminal-skills-tchip4 { animation: terminal-skills-tchip4 17.98s ease-out both; }
-@keyframes terminal-skills-tchip5 { 0%,36.818687% { opacity: 0 } 38.153504%,100% { opacity: 1 } }
-.terminal-skills-tchip5 { animation: terminal-skills-tchip5 17.98s ease-out both; }
-@keyframes terminal-skills-tchip6 { 0%,38.487208% { opacity: 0 } 39.822024%,100% { opacity: 1 } }
-.terminal-skills-tchip6 { animation: terminal-skills-tchip6 17.98s ease-out both; }
-@keyframes terminal-skills-tchip7 { 0%,40.155729% { opacity: 0 } 41.490545%,100% { opacity: 1 } }
-.terminal-skills-tchip7 { animation: terminal-skills-tchip7 17.98s ease-out both; }
-@keyframes terminal-skills-tchip8 { 0%,41.824249% { opacity: 0 } 43.159066%,100% { opacity: 1 } }
-.terminal-skills-tchip8 { animation: terminal-skills-tchip8 17.98s ease-out both; }
-@keyframes terminal-skills-tchip9 { 0%,43.492770% { opacity: 0 } 44.827586%,100% { opacity: 1 } }
-.terminal-skills-tchip9 { animation: terminal-skills-tchip9 17.98s ease-out both; }
-@keyframes terminal-skills-tchip10 { 0%,45.161290% { opacity: 0 } 46.496107%,100% { opacity: 1 } }
-.terminal-skills-tchip10 { animation: terminal-skills-tchip10 17.98s ease-out both; }
-@keyframes terminal-skills-tchip11 { 0%,46.829811% { opacity: 0 } 48.164627%,100% { opacity: 1 } }
-.terminal-skills-tchip11 { animation: terminal-skills-tchip11 17.98s ease-out both; }
-@keyframes terminal-skills-tchip12 { 0%,48.498331% { opacity: 0 } 49.833148%,100% { opacity: 1 } }
-.terminal-skills-tchip12 { animation: terminal-skills-tchip12 17.98s ease-out both; }
-@keyframes terminal-skills-tchip13 { 0%,50.166852% { opacity: 0 } 51.501669%,100% { opacity: 1 } }
-.terminal-skills-tchip13 { animation: terminal-skills-tchip13 17.98s ease-out both; }
-@keyframes terminal-skills-tchip14 { 0%,51.835373% { opacity: 0 } 53.170189%,100% { opacity: 1 } }
-.terminal-skills-tchip14 { animation: terminal-skills-tchip14 17.98s ease-out both; }
-@keyframes terminal-skills-tchip15 { 0%,53.503893% { opacity: 0 } 54.838710%,100% { opacity: 1 } }
-.terminal-skills-tchip15 { animation: terminal-skills-tchip15 17.98s ease-out both; }
-@keyframes terminal-skills-tchip16 { 0%,55.172414% { opacity: 0 } 56.507230%,100% { opacity: 1 } }
-.terminal-skills-tchip16 { animation: terminal-skills-tchip16 17.98s ease-out both; }
-@keyframes terminal-skills-tchip17 { 0%,56.840934% { opacity: 0 } 58.175751%,100% { opacity: 1 } }
-.terminal-skills-tchip17 { animation: terminal-skills-tchip17 17.98s ease-out both; }
-@keyframes terminal-skills-tchip18 { 0%,58.509455% { opacity: 0 } 59.844271%,100% { opacity: 1 } }
-.terminal-skills-tchip18 { animation: terminal-skills-tchip18 17.98s ease-out both; }
-@keyframes terminal-skills-tchip19 { 0%,60.177976% { opacity: 0 } 61.512792%,100% { opacity: 1 } }
-.terminal-skills-tchip19 { animation: terminal-skills-tchip19 17.98s ease-out both; }
-@keyframes terminal-skills-tchip20 { 0%,61.846496% { opacity: 0 } 63.181313%,100% { opacity: 1 } }
-.terminal-skills-tchip20 { animation: terminal-skills-tchip20 17.98s ease-out both; }
-@keyframes terminal-skills-tchip21 { 0%,63.515017% { opacity: 0 } 64.849833%,100% { opacity: 1 } }
-.terminal-skills-tchip21 { animation: terminal-skills-tchip21 17.98s ease-out both; }
-@keyframes terminal-skills-tchip22 { 0%,65.183537% { opacity: 0 } 66.518354%,100% { opacity: 1 } }
-.terminal-skills-tchip22 { animation: terminal-skills-tchip22 17.98s ease-out both; }
-@keyframes terminal-skills-tchip23 { 0%,66.852058% { opacity: 0 } 68.186874%,100% { opacity: 1 } }
-.terminal-skills-tchip23 { animation: terminal-skills-tchip23 17.98s ease-out both; }
-@keyframes terminal-skills-show { 0%,25.806452% { opacity: 0 } 25.806453%,100% { opacity: 1 } }
-#terminal-skills { animation: terminal-skills-show 17.98s steps(1,end) both }</style><g id="terminal-skills" font-size="14" transform="translate(0 275.5)"><text x="40" y="76.5" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">$</text>
+@keyframes terminal-skills-tchip0 { 0%,28.959276% { opacity: 0 } 30.316742%,100% { opacity: 1 } }
+.terminal-skills-tchip0 { animation: terminal-skills-tchip0 17.68s ease-out both; }
+@keyframes terminal-skills-tchip1 { 0%,30.656109% { opacity: 0 } 32.013575%,100% { opacity: 1 } }
+.terminal-skills-tchip1 { animation: terminal-skills-tchip1 17.68s ease-out both; }
+@keyframes terminal-skills-tchip2 { 0%,32.352941% { opacity: 0 } 33.710407%,100% { opacity: 1 } }
+.terminal-skills-tchip2 { animation: terminal-skills-tchip2 17.68s ease-out both; }
+@keyframes terminal-skills-tchip3 { 0%,34.049774% { opacity: 0 } 35.407240%,100% { opacity: 1 } }
+.terminal-skills-tchip3 { animation: terminal-skills-tchip3 17.68s ease-out both; }
+@keyframes terminal-skills-tchip4 { 0%,35.746606% { opacity: 0 } 37.104072%,100% { opacity: 1 } }
+.terminal-skills-tchip4 { animation: terminal-skills-tchip4 17.68s ease-out both; }
+@keyframes terminal-skills-tchip5 { 0%,37.443439% { opacity: 0 } 38.800905%,100% { opacity: 1 } }
+.terminal-skills-tchip5 { animation: terminal-skills-tchip5 17.68s ease-out both; }
+@keyframes terminal-skills-tchip6 { 0%,39.140271% { opacity: 0 } 40.497738%,100% { opacity: 1 } }
+.terminal-skills-tchip6 { animation: terminal-skills-tchip6 17.68s ease-out both; }
+@keyframes terminal-skills-tchip7 { 0%,40.837104% { opacity: 0 } 42.194570%,100% { opacity: 1 } }
+.terminal-skills-tchip7 { animation: terminal-skills-tchip7 17.68s ease-out both; }
+@keyframes terminal-skills-tchip8 { 0%,42.533937% { opacity: 0 } 43.891403%,100% { opacity: 1 } }
+.terminal-skills-tchip8 { animation: terminal-skills-tchip8 17.68s ease-out both; }
+@keyframes terminal-skills-tchip9 { 0%,44.230769% { opacity: 0 } 45.588235%,100% { opacity: 1 } }
+.terminal-skills-tchip9 { animation: terminal-skills-tchip9 17.68s ease-out both; }
+@keyframes terminal-skills-tchip10 { 0%,45.927602% { opacity: 0 } 47.285068%,100% { opacity: 1 } }
+.terminal-skills-tchip10 { animation: terminal-skills-tchip10 17.68s ease-out both; }
+@keyframes terminal-skills-tchip11 { 0%,47.624434% { opacity: 0 } 48.981900%,100% { opacity: 1 } }
+.terminal-skills-tchip11 { animation: terminal-skills-tchip11 17.68s ease-out both; }
+@keyframes terminal-skills-tchip12 { 0%,49.321267% { opacity: 0 } 50.678733%,100% { opacity: 1 } }
+.terminal-skills-tchip12 { animation: terminal-skills-tchip12 17.68s ease-out both; }
+@keyframes terminal-skills-tchip13 { 0%,51.018100% { opacity: 0 } 52.375566%,100% { opacity: 1 } }
+.terminal-skills-tchip13 { animation: terminal-skills-tchip13 17.68s ease-out both; }
+@keyframes terminal-skills-tchip14 { 0%,52.714932% { opacity: 0 } 54.072398%,100% { opacity: 1 } }
+.terminal-skills-tchip14 { animation: terminal-skills-tchip14 17.68s ease-out both; }
+@keyframes terminal-skills-tchip15 { 0%,54.411765% { opacity: 0 } 55.769231%,100% { opacity: 1 } }
+.terminal-skills-tchip15 { animation: terminal-skills-tchip15 17.68s ease-out both; }
+@keyframes terminal-skills-tchip16 { 0%,56.108597% { opacity: 0 } 57.466063%,100% { opacity: 1 } }
+.terminal-skills-tchip16 { animation: terminal-skills-tchip16 17.68s ease-out both; }
+@keyframes terminal-skills-tchip17 { 0%,57.805430% { opacity: 0 } 59.162896%,100% { opacity: 1 } }
+.terminal-skills-tchip17 { animation: terminal-skills-tchip17 17.68s ease-out both; }
+@keyframes terminal-skills-tchip18 { 0%,59.502262% { opacity: 0 } 60.859729%,100% { opacity: 1 } }
+.terminal-skills-tchip18 { animation: terminal-skills-tchip18 17.68s ease-out both; }
+@keyframes terminal-skills-tchip19 { 0%,61.199095% { opacity: 0 } 62.556561%,100% { opacity: 1 } }
+.terminal-skills-tchip19 { animation: terminal-skills-tchip19 17.68s ease-out both; }
+@keyframes terminal-skills-tchip20 { 0%,62.895928% { opacity: 0 } 64.253394%,100% { opacity: 1 } }
+.terminal-skills-tchip20 { animation: terminal-skills-tchip20 17.68s ease-out both; }
+@keyframes terminal-skills-tchip21 { 0%,64.592760% { opacity: 0 } 65.950226%,100% { opacity: 1 } }
+.terminal-skills-tchip21 { animation: terminal-skills-tchip21 17.68s ease-out both; }
+@keyframes terminal-skills-tchip22 { 0%,66.289593% { opacity: 0 } 67.647059%,100% { opacity: 1 } }
+.terminal-skills-tchip22 { animation: terminal-skills-tchip22 17.68s ease-out both; }
+@keyframes terminal-skills-show { 0%,26.244344% { opacity: 0 } 26.244345%,100% { opacity: 1 } }
+#terminal-skills { animation: terminal-skills-show 17.68s steps(1,end) both }</style><g id="terminal-skills" font-size="14" transform="translate(0 275.5)"><text x="40" y="76.5" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">$</text>
 <text x="62" y="76.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">which --skills</text>
 <text x="40" y="99.5" fill="#5a5a64" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">→</text>
-<text x="62" y="99.5" fill="#5a5a64" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">20 matches</text>
+<text x="62" y="99.5" fill="#5a5a64" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">19 matches</text>
 <text x="62" y="138" fill="#5a5a64" font-size="14" class="terminal-skills-tchip0" xmlns="http://www.w3.org/2000/svg"># Web Skills</text>
 <text class="terminal-skills-tchip1" x="62" y="160" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ React ]</text>
 <text class="terminal-skills-tchip2" x="146" y="160" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ TypeScript ]</text>
 <text class="terminal-skills-tchip3" x="272" y="160" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ StyleX ]</text>
 <text class="terminal-skills-tchip4" x="364" y="160" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Tailwind CSS ]</text>
-<text class="terminal-skills-tchip5" x="506" y="160" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ FastAPI ]</text>
-<text x="62" y="204" fill="#5a5a64" font-size="14" class="terminal-skills-tchip6" xmlns="http://www.w3.org/2000/svg"># Backend Skills</text>
-<text class="terminal-skills-tchip7" x="62" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Python ]</text>
-<text class="terminal-skills-tchip8" x="154" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ FastAPI ]</text>
-<text class="terminal-skills-tchip9" x="254" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Java ]</text>
-<text class="terminal-skills-tchip10" x="329" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ SQLite ]</text>
-<text class="terminal-skills-tchip11" x="421" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Redis ]</text>
-<text class="terminal-skills-tchip12" x="505" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ MongoDB ]</text>
-<text class="terminal-skills-tchip13" x="605" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ C++ ]</text>
-<text x="62" y="270" fill="#5a5a64" font-size="14" class="terminal-skills-tchip14" xmlns="http://www.w3.org/2000/svg"># AI Skills</text>
-<text class="terminal-skills-tchip15" x="62" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ PyTorch ]</text>
-<text class="terminal-skills-tchip16" x="162" y="292" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Triton ]</text>
-<text class="terminal-skills-tchip17" x="254" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Numpy ]</text>
-<text class="terminal-skills-tchip18" x="338" y="292" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Pandas ]</text>
-<text class="terminal-skills-tchip19" x="430" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ SciPy ]</text>
-<text x="62" y="336" fill="#5a5a64" font-size="14" class="terminal-skills-tchip20" xmlns="http://www.w3.org/2000/svg"># Try To Learn</text>
-<text class="terminal-skills-tchip21" x="62" y="358" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Unity ]</text>
-<text class="terminal-skills-tchip22" x="146" y="358" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Blender ]</text>
-<text class="terminal-skills-tchip23" x="246" y="358" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ UE5 ]</text></g>
+<text x="62" y="204" fill="#5a5a64" font-size="14" class="terminal-skills-tchip5" xmlns="http://www.w3.org/2000/svg"># Backend Skills</text>
+<text class="terminal-skills-tchip6" x="62" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Python ]</text>
+<text class="terminal-skills-tchip7" x="154" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ FastAPI ]</text>
+<text class="terminal-skills-tchip8" x="254" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Java ]</text>
+<text class="terminal-skills-tchip9" x="329" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ SQLite ]</text>
+<text class="terminal-skills-tchip10" x="421" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Redis ]</text>
+<text class="terminal-skills-tchip11" x="505" y="226" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ MongoDB ]</text>
+<text class="terminal-skills-tchip12" x="605" y="226" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ C++ ]</text>
+<text x="62" y="270" fill="#5a5a64" font-size="14" class="terminal-skills-tchip13" xmlns="http://www.w3.org/2000/svg"># AI Skills</text>
+<text class="terminal-skills-tchip14" x="62" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ PyTorch ]</text>
+<text class="terminal-skills-tchip15" x="162" y="292" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Triton ]</text>
+<text class="terminal-skills-tchip16" x="254" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Numpy ]</text>
+<text class="terminal-skills-tchip17" x="338" y="292" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Pandas ]</text>
+<text class="terminal-skills-tchip18" x="430" y="292" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ SciPy ]</text>
+<text x="62" y="336" fill="#5a5a64" font-size="14" class="terminal-skills-tchip19" xmlns="http://www.w3.org/2000/svg"># Try To Learn</text>
+<text class="terminal-skills-tchip20" x="62" y="358" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Unity ]</text>
+<text class="terminal-skills-tchip21" x="146" y="358" fill="#e7e7ea" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ Blender ]</text>
+<text class="terminal-skills-tchip22" x="246" y="358" fill="#4ade80" font-size="14" dominant-baseline="middle" xmlns="http://www.w3.org/2000/svg">[ UE5 ]</text></g>
 <style>
     #terminal-github-stats text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; dominant-baseline: middle; }
-    @keyframes terminal-github-stats-ln0 { 0%,70.411568% { opacity: 0 } 71.746385%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln2 { 0%,74.416018% { opacity: 0 } 75.750834%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln3 { 0%,76.418242% { opacity: 0 } 77.753059%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln4 { 0%,78.420467% { opacity: 0 } 79.755284%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln5 { 0%,80.422692% { opacity: 0 } 81.757508%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln6 { 0%,82.424917% { opacity: 0 } 83.759733%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln8 { 0%,86.429366% { opacity: 0 } 87.764182%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln9 { 0%,88.431591% { opacity: 0 } 89.766407%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln10 { 0%,90.433815% { opacity: 0 } 91.768632%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln11 { 0%,92.436040% { opacity: 0 } 93.770857%,100% { opacity: 1 } }
-    @keyframes terminal-github-stats-ln13 { 0%,96.440489% { opacity: 0 } 97.775306%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln0 { 0%,69.909502% { opacity: 0 } 71.266968%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln2 { 0%,73.981900% { opacity: 0 } 75.339367%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln3 { 0%,76.018100% { opacity: 0 } 77.375566%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln4 { 0%,78.054299% { opacity: 0 } 79.411765%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln5 { 0%,80.090498% { opacity: 0 } 81.447964%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln6 { 0%,82.126697% { opacity: 0 } 83.484163%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln8 { 0%,86.199095% { opacity: 0 } 87.556561%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln9 { 0%,88.235294% { opacity: 0 } 89.592760%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln10 { 0%,90.271493% { opacity: 0 } 91.628959%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln11 { 0%,92.307692% { opacity: 0 } 93.665158%,100% { opacity: 1 } }
+    @keyframes terminal-github-stats-ln13 { 0%,96.380090% { opacity: 0 } 97.737557%,100% { opacity: 1 } }
     @keyframes terminal-github-stats-blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    .terminal-github-stats-ln0 { animation: terminal-github-stats-ln0 17.98s ease-in-out both }
-    .terminal-github-stats-ln2 { animation: terminal-github-stats-ln2 17.98s ease-in-out both }
-    .terminal-github-stats-ln3 { animation: terminal-github-stats-ln3 17.98s ease-in-out both }
-    .terminal-github-stats-ln4 { animation: terminal-github-stats-ln4 17.98s ease-in-out both }
-    .terminal-github-stats-ln5 { animation: terminal-github-stats-ln5 17.98s ease-in-out both }
-    .terminal-github-stats-ln6 { animation: terminal-github-stats-ln6 17.98s ease-in-out both }
-    .terminal-github-stats-ln8 { animation: terminal-github-stats-ln8 17.98s ease-in-out both }
-    .terminal-github-stats-ln9 { animation: terminal-github-stats-ln9 17.98s ease-in-out both }
-    .terminal-github-stats-ln10 { animation: terminal-github-stats-ln10 17.98s ease-in-out both }
-    .terminal-github-stats-ln11 { animation: terminal-github-stats-ln11 17.98s ease-in-out both }
-    .terminal-github-stats-ln13 { animation: terminal-github-stats-ln13 17.98s ease-in-out both }
+    .terminal-github-stats-ln0 { animation: terminal-github-stats-ln0 17.68s ease-in-out both }
+    .terminal-github-stats-ln2 { animation: terminal-github-stats-ln2 17.68s ease-in-out both }
+    .terminal-github-stats-ln3 { animation: terminal-github-stats-ln3 17.68s ease-in-out both }
+    .terminal-github-stats-ln4 { animation: terminal-github-stats-ln4 17.68s ease-in-out both }
+    .terminal-github-stats-ln5 { animation: terminal-github-stats-ln5 17.68s ease-in-out both }
+    .terminal-github-stats-ln6 { animation: terminal-github-stats-ln6 17.68s ease-in-out both }
+    .terminal-github-stats-ln8 { animation: terminal-github-stats-ln8 17.68s ease-in-out both }
+    .terminal-github-stats-ln9 { animation: terminal-github-stats-ln9 17.68s ease-in-out both }
+    .terminal-github-stats-ln10 { animation: terminal-github-stats-ln10 17.68s ease-in-out both }
+    .terminal-github-stats-ln11 { animation: terminal-github-stats-ln11 17.68s ease-in-out both }
+    .terminal-github-stats-ln13 { animation: terminal-github-stats-ln13 17.68s ease-in-out both }
   
-@keyframes terminal-github-stats-show { 0%,70.411568% { opacity: 0 } 70.411569%,100% { opacity: 1 } }
-#terminal-github-stats { animation: terminal-github-stats-show 17.98s steps(1,end) both }</style><g id="terminal-github-stats" font-size="13" transform="translate(0 613.5)"><g class="terminal-github-stats-ln0" transform="translate(40 64)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">gh stat --user Chizer77</text></g>
+@keyframes terminal-github-stats-show { 0%,69.909502% { opacity: 0 } 69.909503%,100% { opacity: 1 } }
+#terminal-github-stats { animation: terminal-github-stats-show 17.68s steps(1,end) both }</style><g id="terminal-github-stats" font-size="13" transform="translate(0 613.5)"><g class="terminal-github-stats-ln0" transform="translate(40 64)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">gh stat --user Chizer77</text></g>
 <g class="terminal-github-stats-ln2" transform="translate(60 108)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">repos</text><text x="120" fill="#e7e7ea">26</text><text x="200" fill="#5a5a64" fill-opacity="0.7">12 indexed</text></g>
 <g class="terminal-github-stats-ln3" transform="translate(60 130)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">commits</text><text x="120" fill="#e7e7ea">—</text><text x="200" fill="#5a5a64" fill-opacity="0.7">ytd</text></g>
 <g class="terminal-github-stats-ln4" transform="translate(60 152)" xmlns="http://www.w3.org/2000/svg"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">prs</text><text x="120" fill="#e7e7ea">—</text><text x="200" fill="#5a5a64" fill-opacity="0.7">— ytd</text></g>
@@ -163,8 +160,7 @@
 <g class="terminal-github-stats-ln9" transform="translate(60 262)" xmlns="http://www.w3.org/2000/svg"><text fill="#f34b7d">▮▮▮░░░░░░░</text><text x="120" fill="#e7e7ea">C++</text><text x="200" fill="#5a5a64" fill-opacity="0.7">27.3%</text></g>
 <g class="terminal-github-stats-ln10" transform="translate(60 284)" xmlns="http://www.w3.org/2000/svg"><text fill="#3178c6">▮▮░░░░░░░░</text><text x="120" fill="#e7e7ea">TypeScript</text><text x="200" fill="#5a5a64" fill-opacity="0.7">18.2%</text></g>
 <g class="terminal-github-stats-ln11" transform="translate(60 306)" xmlns="http://www.w3.org/2000/svg"><text fill="#3572A5">▮▮░░░░░░░░</text><text x="120" fill="#e7e7ea">Python</text><text x="200" fill="#5a5a64" fill-opacity="0.7">18.2%</text></g>
-<g class="terminal-github-stats-ln13" transform="translate(40 350)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">ready</text><rect x="78" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: terminal-github-stats-blink 1s steps(1) infinite"/></g>
-<text x="782" y="376" fill="#5a5a64" fill-opacity="0.5" font-family="ui-monospace, monospace" font-size="10" text-anchor="end" class="terminal-github-stats-ln13" xmlns="http://www.w3.org/2000/svg">— contributions · @Chizer77</text></g>
+<g class="terminal-github-stats-ln13" transform="translate(40 350)" xmlns="http://www.w3.org/2000/svg"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">ready</text><rect x="78" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: terminal-github-stats-blink 1s steps(1) infinite"/></g></g>
 <style>#activity-calendar{--cb:#1b1f230a;--cs:purple;--ce:#161b22;--c0:#161b22;--c1:#01311f;--c2:#034525;--c3:#0f6d31;--c4:#00c647}.snake-c{shape-rendering:geometricPrecision;fill:var(--ce);stroke-width:1px;stroke:var(--cb);animation:none 17700ms linear infinite;width:12px;height:12px}@keyframes snake-c0{3.38%{fill:var(--c1)}3.4%,100%{fill:var(--ce)}}.snake-c.snake-c0{fill:var(--c1);animation-name:snake-c0}@keyframes snake-c1{9.03%{fill:var(--c1)}9.05%,100%{fill:var(--ce)}}.snake-c.snake-c1{fill:var(--c1);animation-name:snake-c1}@keyframes snake-c2{92.08%{fill:var(--c4)}92.1%,100%{fill:var(--ce)}}.snake-c.snake-c2{fill:var(--c4);animation-name:snake-c2}@keyframes snake-c3{14.11%{fill:var(--c1)}14.13%,100%{fill:var(--ce)}}.snake-c.snake-c3{fill:var(--c1);animation-name:snake-c3}@keyframes snake-c4{14.68%{fill:var(--c1)}14.7%,100%{fill:var(--ce)}}.snake-c.snake-c4{fill:var(--c1);animation-name:snake-c4}@keyframes snake-c5{29.37%{fill:var(--c1)}29.39%,100%{fill:var(--ce)}}.snake-c.snake-c5{fill:var(--c1);animation-name:snake-c5}@keyframes snake-c6{81.91%{fill:var(--c4)}81.93%,100%{fill:var(--ce)}}.snake-c.snake-c6{fill:var(--c4);animation-name:snake-c6}@keyframes snake-c7{25.98%{fill:var(--c1)}26%,100%{fill:var(--ce)}}.snake-c.snake-c7{fill:var(--c1);animation-name:snake-c7}@keyframes snake-c8{80.78%{fill:var(--c4)}80.8%,100%{fill:var(--ce)}}.snake-c.snake-c8{fill:var(--c4);animation-name:snake-c8}@keyframes snake-c9{80.22%{fill:var(--c4)}80.24%,100%{fill:var(--ce)}}.snake-c.snake-c9{fill:var(--c4);animation-name:snake-c9}@keyframes snake-ca{60.44%{fill:var(--c2)}60.46%,100%{fill:var(--ce)}}.snake-c.snake-ca{fill:var(--c2);animation-name:snake-ca}@keyframes snake-cb{22.59%{fill:var(--c1)}22.61%,100%{fill:var(--ce)}}.snake-c.snake-cb{fill:var(--c1);animation-name:snake-cb}@keyframes snake-cc{25.41%{fill:var(--c1)}25.43%,100%{fill:var(--ce)}}.snake-c.snake-cc{fill:var(--c1);animation-name:snake-cc}@keyframes snake-cd{24.28%{fill:var(--c1)}24.3%,100%{fill:var(--ce)}}.snake-c.snake-cd{fill:var(--c1);animation-name:snake-cd}@keyframes snake-ce{78.52%{fill:var(--c4)}78.54%,100%{fill:var(--ce)}}.snake-c.snake-ce{fill:var(--c4);animation-name:snake-ce}@keyframes snake-cf{67.22%{fill:var(--c3)}67.24%,100%{fill:var(--ce)}}.snake-c.snake-cf{fill:var(--c3);animation-name:snake-cf}@keyframes snake-cg{67.79%{fill:var(--c4)}67.81%,100%{fill:var(--ce)}}.snake-c.snake-cg{fill:var(--c4);animation-name:snake-cg}@keyframes snake-ch{66.09%{fill:var(--c3)}66.11%,100%{fill:var(--ce)}}.snake-c.snake-ch{fill:var(--c3);animation-name:snake-ch}@keyframes snake-ci{65.53%{fill:var(--c3)}65.55%,100%{fill:var(--ce)}}.snake-c.snake-ci{fill:var(--c3);animation-name:snake-ci}@keyframes snake-cj{71.18%{fill:var(--c4)}71.2%,100%{fill:var(--ce)}}.snake-c.snake-cj{fill:var(--c4);animation-name:snake-cj}@keyframes snake-ck{68.35%{fill:var(--c4)}68.37%,100%{fill:var(--ce)}}.snake-c.snake-ck{fill:var(--c4);animation-name:snake-ck}@keyframes snake-cl{54.23%{fill:var(--c2)}54.25%,100%{fill:var(--ce)}}.snake-c.snake-cl{fill:var(--c2);animation-name:snake-cl}@keyframes snake-cm{38.97%{fill:var(--c1)}38.99%,100%{fill:var(--ce)}}.snake-c.snake-cm{fill:var(--c1);animation-name:snake-cm}@keyframes snake-cn{39.54%{fill:var(--c1)}39.56%,100%{fill:var(--ce)}}.snake-c.snake-cn{fill:var(--c1);animation-name:snake-cn}@keyframes snake-co{36.71%{fill:var(--c1)}36.73%,100%{fill:var(--ce)}}.snake-c.snake-co{fill:var(--c1);animation-name:snake-co}@keyframes snake-cp{74%{fill:var(--c4)}74.02%,100%{fill:var(--ce)}}.snake-c.snake-cp{fill:var(--c4);animation-name:snake-cp}@keyframes snake-cq{73.44%{fill:var(--c4)}73.46%,100%{fill:var(--ce)}}.snake-c.snake-cq{fill:var(--c4);animation-name:snake-cq}@keyframes snake-cr{46.88%{fill:var(--c1)}46.9%,100%{fill:var(--ce)}}.snake-c.snake-cr{fill:var(--c1);animation-name:snake-cr}.snake-u{transform-origin:0 0;transform:scale(0,1);animation:none linear 17700ms infinite}@keyframes snake-u0{3.38%{transform:scale(0.000,1)}3.4%,9.03%{transform:scale(0.077,1)}9.05%,14.11%{transform:scale(0.154,1)}14.13%,14.68%{transform:scale(0.231,1)}14.7%,22.59%{transform:scale(0.308,1)}22.61%,24.28%{transform:scale(0.385,1)}24.3%,25.41%{transform:scale(0.462,1)}25.43%,25.98%{transform:scale(0.538,1)}26%,29.37%{transform:scale(0.615,1)}29.39%,36.71%{transform:scale(0.692,1)}36.73%,38.97%{transform:scale(0.769,1)}38.99%,39.54%{transform:scale(0.846,1)}39.56%,46.88%{transform:scale(0.923,1)}46.9%,100%{transform:scale(1.000,1)}}.snake-u.snake-u0{fill:var(--c1);animation-name:snake-u0;transform-origin:0.0px 0}@keyframes snake-u1{54.23%{transform:scale(0.000,1)}54.25%,60.44%{transform:scale(0.500,1)}60.46%,100%{transform:scale(1.000,1)}}.snake-u.snake-u1{fill:var(--c2);animation-name:snake-u1;transform-origin:393.7px 0}@keyframes snake-u2{65.53%{transform:scale(0.000,1)}65.55%,66.09%{transform:scale(0.333,1)}66.11%,67.22%{transform:scale(0.667,1)}67.24%,100%{transform:scale(1.000,1)}}.snake-u.snake-u2{fill:var(--c3);animation-name:snake-u2;transform-origin:454.3px 0}@keyframes snake-u3{67.79%{transform:scale(0.000,1)}67.81%,68.35%{transform:scale(0.100,1)}68.37%,71.18%{transform:scale(0.200,1)}71.2%,73.44%{transform:scale(0.300,1)}73.46%,74%{transform:scale(0.400,1)}74.02%,78.52%{transform:scale(0.500,1)}78.54%,80.22%{transform:scale(0.600,1)}80.24%,80.78%{transform:scale(0.700,1)}80.8%,81.91%{transform:scale(0.800,1)}81.93%,92.08%{transform:scale(0.900,1)}92.1%,100%{transform:scale(1.000,1)}}.snake-u.snake-u3{fill:var(--c4);animation-name:snake-u3;transform-origin:545.1px 0}.snake-s{shape-rendering:geometricPrecision;fill:var(--cs);animation:none linear 17700ms infinite}@keyframes snake-s0{0%,99.44%{transform:translate(0px,-16px)}0.56%{transform:translate(0px,0px)}1.13%{transform:translate(16px,0px)}3.39%{transform:translate(16px,64px)}7.91%{transform:translate(144px,64px)}9.04%{transform:translate(144px,32px)}12.43%{transform:translate(240px,32px)}14.12%{transform:translate(240px,80px)}21.47%{transform:translate(448px,80px)}22.03%{transform:translate(448px,96px)}23.16%{transform:translate(480px,96px)}25.42%{transform:translate(480px,32px)}25.99%{transform:translate(464px,32px)}27.12%{transform:translate(464px,0px)}29.38%{transform:translate(400px,0px)}29.94%{transform:translate(400px,16px)}36.72%{transform:translate(592px,16px)}38.42%{transform:translate(592px,64px)}38.98%{transform:translate(576px,64px)}39.55%,55.37%{transform:translate(576px,80px)}40.68%{transform:translate(608px,80px)}41.24%{transform:translate(608px,64px)}46.33%{transform:translate(752px,64px)}46.89%{transform:translate(752px,80px)}47.46%{transform:translate(736px,80px)}48.59%{transform:translate(736px,48px)}54.24%,68.93%{transform:translate(576px,48px)}56.5%,64.41%{transform:translate(544px,80px)}57.06%{transform:translate(544px,64px)}59.32%{transform:translate(480px,64px)}59.89%{transform:translate(480px,80px)}60.45%{transform:translate(464px,80px)}61.02%{transform:translate(464px,96px)}63.84%{transform:translate(544px,96px)}64.97%{transform:translate(560px,80px)}66.1%,69.49%{transform:translate(560px,48px)}66.67%{transform:translate(544px,48px)}67.23%{transform:translate(544px,32px)}68.36%{transform:translate(576px,32px)}71.19%{transform:translate(560px,96px)}73.45%{transform:translate(624px,96px)}74.01%{transform:translate(624px,80px)}78.53%{transform:translate(496px,80px)}79.1%{transform:translate(496px,64px)}80.23%{transform:translate(464px,64px)}80.79%{transform:translate(464px,48px)}81.92%{transform:translate(432px,48px)}83.62%{transform:translate(432px,0px)}95.48%{transform:translate(96px,0px)}96.05%{transform:translate(96px,-16px)}}.snake-s.snake-s0{transform:translate(0px,-16px);animation-name:snake-s0}@keyframes snake-s1{0%,99.44%{transform:translate(16px,-16px)}0.56%{transform:translate(0px,-16px)}1.13%{transform:translate(0px,0px)}1.69%{transform:translate(16px,0px)}3.95%{transform:translate(16px,64px)}8.47%{transform:translate(144px,64px)}9.6%{transform:translate(144px,32px)}12.99%{transform:translate(240px,32px)}14.69%{transform:translate(240px,80px)}22.03%{transform:translate(448px,80px)}22.6%{transform:translate(448px,96px)}23.73%{transform:translate(480px,96px)}25.99%{transform:translate(480px,32px)}26.55%{transform:translate(464px,32px)}27.68%{transform:translate(464px,0px)}29.94%{transform:translate(400px,0px)}30.51%{transform:translate(400px,16px)}37.29%{transform:translate(592px,16px)}38.98%{transform:translate(592px,64px)}39.55%{transform:translate(576px,64px)}40.11%,55.93%{transform:translate(576px,80px)}41.24%{transform:translate(608px,80px)}41.81%{transform:translate(608px,64px)}46.89%{transform:translate(752px,64px)}47.46%{transform:translate(752px,80px)}48.02%{transform:translate(736px,80px)}49.15%{transform:translate(736px,48px)}54.8%,69.49%{transform:translate(576px,48px)}57.06%,64.97%{transform:translate(544px,80px)}57.63%{transform:translate(544px,64px)}59.89%{transform:translate(480px,64px)}60.45%{transform:translate(480px,80px)}61.02%{transform:translate(464px,80px)}61.58%{transform:translate(464px,96px)}64.41%{transform:translate(544px,96px)}65.54%{transform:translate(560px,80px)}66.67%,70.06%{transform:translate(560px,48px)}67.23%{transform:translate(544px,48px)}67.8%{transform:translate(544px,32px)}68.93%{transform:translate(576px,32px)}71.75%{transform:translate(560px,96px)}74.01%{transform:translate(624px,96px)}74.58%{transform:translate(624px,80px)}79.1%{transform:translate(496px,80px)}79.66%{transform:translate(496px,64px)}80.79%{transform:translate(464px,64px)}81.36%{transform:translate(464px,48px)}82.49%{transform:translate(432px,48px)}84.18%{transform:translate(432px,0px)}96.05%{transform:translate(96px,0px)}96.61%{transform:translate(96px,-16px)}}.snake-s.snake-s1{transform:translate(16px,-16px);animation-name:snake-s1}@keyframes snake-s2{0%,99.44%{transform:translate(32px,-16px)}1.13%{transform:translate(0px,-16px)}1.69%{transform:translate(0px,0px)}2.26%{transform:translate(16px,0px)}4.52%{transform:translate(16px,64px)}9.04%{transform:translate(144px,64px)}10.17%{transform:translate(144px,32px)}13.56%{transform:translate(240px,32px)}15.25%{transform:translate(240px,80px)}22.6%{transform:translate(448px,80px)}23.16%{transform:translate(448px,96px)}24.29%{transform:translate(480px,96px)}26.55%{transform:translate(480px,32px)}27.12%{transform:translate(464px,32px)}28.25%{transform:translate(464px,0px)}30.51%{transform:translate(400px,0px)}31.07%{transform:translate(400px,16px)}37.85%{transform:translate(592px,16px)}39.55%{transform:translate(592px,64px)}40.11%{transform:translate(576px,64px)}40.68%,56.5%{transform:translate(576px,80px)}41.81%{transform:translate(608px,80px)}42.37%{transform:translate(608px,64px)}47.46%{transform:translate(752px,64px)}48.02%{transform:translate(752px,80px)}48.59%{transform:translate(736px,80px)}49.72%{transform:translate(736px,48px)}55.37%,70.06%{transform:translate(576px,48px)}57.63%,65.54%{transform:translate(544px,80px)}58.19%{transform:translate(544px,64px)}60.45%{transform:translate(480px,64px)}61.02%{transform:translate(480px,80px)}61.58%{transform:translate(464px,80px)}62.15%{transform:translate(464px,96px)}64.97%{transform:translate(544px,96px)}66.1%{transform:translate(560px,80px)}67.23%,70.62%{transform:translate(560px,48px)}67.8%{transform:translate(544px,48px)}68.36%{transform:translate(544px,32px)}69.49%{transform:translate(576px,32px)}72.32%{transform:translate(560px,96px)}74.58%{transform:translate(624px,96px)}75.14%{transform:translate(624px,80px)}79.66%{transform:translate(496px,80px)}80.23%{transform:translate(496px,64px)}81.36%{transform:translate(464px,64px)}81.92%{transform:translate(464px,48px)}83.05%{transform:translate(432px,48px)}84.75%{transform:translate(432px,0px)}96.61%{transform:translate(96px,0px)}97.18%{transform:translate(96px,-16px)}}.snake-s.snake-s2{transform:translate(32px,-16px);animation-name:snake-s2}@keyframes snake-s3{0%,99.44%{transform:translate(48px,-16px)}1.69%{transform:translate(0px,-16px)}2.26%{transform:translate(0px,0px)}2.82%{transform:translate(16px,0px)}5.08%{transform:translate(16px,64px)}9.6%{transform:translate(144px,64px)}10.73%{transform:translate(144px,32px)}14.12%{transform:translate(240px,32px)}15.82%{transform:translate(240px,80px)}23.16%{transform:translate(448px,80px)}23.73%{transform:translate(448px,96px)}24.86%{transform:translate(480px,96px)}27.12%{transform:translate(480px,32px)}27.68%{transform:translate(464px,32px)}28.81%{transform:translate(464px,0px)}31.07%{transform:translate(400px,0px)}31.64%{transform:translate(400px,16px)}38.42%{transform:translate(592px,16px)}40.11%{transform:translate(592px,64px)}40.68%{transform:translate(576px,64px)}41.24%,57.06%{transform:translate(576px,80px)}42.37%{transform:translate(608px,80px)}42.94%{transform:translate(608px,64px)}48.02%{transform:translate(752px,64px)}48.59%{transform:translate(752px,80px)}49.15%{transform:translate(736px,80px)}50.28%{transform:translate(736px,48px)}55.93%,70.62%{transform:translate(576px,48px)}58.19%,66.1%{transform:translate(544px,80px)}58.76%{transform:translate(544px,64px)}61.02%{transform:translate(480px,64px)}61.58%{transform:translate(480px,80px)}62.15%{transform:translate(464px,80px)}62.71%{transform:translate(464px,96px)}65.54%{transform:translate(544px,96px)}66.67%{transform:translate(560px,80px)}67.8%,71.19%{transform:translate(560px,48px)}68.36%{transform:translate(544px,48px)}68.93%{transform:translate(544px,32px)}70.06%{transform:translate(576px,32px)}72.88%{transform:translate(560px,96px)}75.14%{transform:translate(624px,96px)}75.71%{transform:translate(624px,80px)}80.23%{transform:translate(496px,80px)}80.79%{transform:translate(496px,64px)}81.92%{transform:translate(464px,64px)}82.49%{transform:translate(464px,48px)}83.62%{transform:translate(432px,48px)}85.31%{transform:translate(432px,0px)}97.18%{transform:translate(96px,0px)}97.74%{transform:translate(96px,-16px)}}.snake-s.snake-s3{transform:translate(48px,-16px);animation-name:snake-s3}
 @keyframes snake-grow { from { opacity:0; transform:scale(0) } to { opacity:1; transform:scale(1) } }
 @keyframes snake-show { from { opacity:0 } to { opacity:1 } }

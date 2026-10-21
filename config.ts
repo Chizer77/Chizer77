@@ -10,7 +10,7 @@ export const config = {
         bio: "Agents, LLMs, Fintune, Infer, Infra, Now in Continuous Learning...",
         tags: ["Software Engineer", "AI Engineer", "VibeCoder"],
         skillGroups: [
-            { name: "Web Skills", skills: ["React", "TypeScript", "StyleX", "Tailwind CSS", "FastAPI"] },
+            { name: "Web Skills", skills: ["React", "TypeScript", "StyleX", "Tailwind CSS"] },
             { name: "Backend Skills", skills: ["Python", "FastAPI", "Java", "SQLite", "Redis", "MongoDB", "C++"] },
             { name: "AI Skills", skills: ["PyTorch", "Triton", "Numpy", "Pandas", "SciPy"] },
             { name: "Try To Learn", skills: ["Unity", "Blender", "UE5"] },

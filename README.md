@@ -1,5 +1,4 @@
 <div align="left">
-  <img src="https://count.alltales.cc/@Chizer77" align="right" width="250" height="180" alt="Chizer77" />
   <div>
     <img src="assets/crow/crow.svg" width="60%" height="128" alt="" />
   </div>
@@ -35,6 +34,9 @@
   <img src="assets/profile/profile.svg" width="100%" alt="" />
 </p>
 <!-- /terminal-profile -->
+<p align="center">
+  <img src="https://count.alltales.cc/@Chizer77" height="64" alt="Chizer77" />
+</p>
 
 <!-- <h3 align="center">Artworks</h3> -->
 <!-- artworks -->
