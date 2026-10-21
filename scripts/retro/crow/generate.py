@@ -1,4 +1,4 @@
-"""把乌鸦动作编排成可直接嵌入 README 的透明横向动画。"""
+"""把雨城背景和乌鸦动作编排成可直接嵌入 README 的透明横向动画。"""
 
 import sys
 from pathlib import Path
@@ -16,10 +16,10 @@ from PIL import Image
 from scripts.retro.gif_assets import ROOT, TICK, indexed, shared_color_table, load_source
 from scripts.retro.crow.flight import sample_flight
 from scripts.retro.crow.svg import export_svg
+from scripts.retro.crow.scene import SIZE, ANIMATION_OFFSET, load_background, indexed_background, verify_landings
 
 OUTPUT = ROOT / "assets/crow"
-# 地板位于 50 + 78 = 128；只去掉脚底以下的透明留白。
-SIZE = (800, 128)
+# 动作仍使用原来的 128px 脚底基线，导出时整体平移到石墙顶面。
 GROUND_TOP = 50
 # 同一轮仍为 800ms；完整保留 16 姿势，下拍加速，回收留出惯性。
 WING_DURATIONS = (50, 40, 40, 30, 30, 40, 40, 50, 60, 60, 60, 50, 50, 60, 70, 70)
@@ -134,34 +134,40 @@ def oriented_sprites(sprites):
             for index, frame in enumerate(sprites) for flip in (False, True)}
 
 
-def render_frame(record, sprites):
-    frame = Image.new("RGBA", SIZE)
-    frame.alpha_composite(sprites[record["sprite"], record["flip"]], (record["x"], record["y"]))
+def render_frame(record, sprites, background):
+    frame = background.copy()
+    frame.alpha_composite(sprites[record["sprite"], record["flip"]],
+                          (record["x"], record["y"] + ANIMATION_OFFSET))
     return frame
 
 
 def export_gif(choreography, colors):
+    background, colors = indexed_background(load_background(), colors)
     sprites = oriented_sprites([indexed(frame, colors) for frame in choreography.sprites])
     frames, durations, previous = [], [], None
-    palette = next(iter(sprites.values())).getpalette()
     for record in choreography.timeline:
         key = (record["sprite"], record["flip"], record["x"], record["y"])
         if key == previous:
             durations[-1] += record["duration_ms"]
             continue
-        frame = Image.new("P", SIZE, 0)
-        frame.putpalette(palette)
-        frame.paste(sprites[key[:2]], key[2:])
+        frame = background.copy()
+        sprite = sprites[key[:2]]
+        # 透明姿势像素不能擦掉背景；只粘贴实际角色像素。
+        frame.paste(sprite, (record["x"], record["y"] + ANIMATION_OFFSET),
+                    sprite.convert("RGBA").getchannel("A"))
         frames.append(frame)
         durations.append(record["duration_ms"])
         previous = key
     path = OUTPUT / "crow.gif"
-    frames[0].save(path, save_all=True, append_images=frames[1:], duration=durations,
+    temporary = path.with_name("crow.tmp.gif")
+    # 先写完再替换，避免预览正在读取成品时读到半个 GIF。
+    frames[0].save(temporary, save_all=True, append_images=frames[1:], duration=durations,
                    transparency=0, background=0, disposal=2, loop=0, optimize=False)
-    return path
+    temporary.replace(path)
+    return path, background.convert("RGBA")
 
 
-def verify_export(path, choreography):
+def verify_export(path, choreography, background):
     sprites = oriented_sprites(choreography.sprites)
     tick, bounds = 0, []
     with Image.open(path) as gif:
@@ -174,17 +180,20 @@ def verify_export(path, choreography):
             assert remaining % 10 == 0 and remaining >= 20
             while remaining:
                 record = choreography.timeline[tick]
-                expected = render_frame(record, sprites)
+                expected = render_frame(record, sprites, background)
                 assert np.array_equal(actual, np.asarray(expected)), tick
                 sprite = sprites[record["sprite"], record["flip"]]
-                assert np.count_nonzero(actual[:, :, 3]) == np.count_nonzero(np.asarray(sprite)[:, :, 3])
-                bounds.append(expected.getbbox())
+                left, top, right, bottom = sprite.getbbox()
+                bounds.append((record["x"] + left, record["y"] + top + ANIMATION_OFFSET,
+                               record["x"] + right, record["y"] + bottom + ANIMATION_OFFSET))
+                assert bounds[-1][0] >= 0 and bounds[-1][1] >= 0
+                assert bounds[-1][2] <= SIZE[0] and bounds[-1][3] <= SIZE[1]
                 remaining -= record["duration_ms"]
                 assert remaining >= 0, "GIF 时长必须精确覆盖原画的停留时间"
                 tick += 1
         encoded = gif.n_frames
     assert tick == len(choreography.timeline)
-    assert render_frame(choreography.timeline[0], sprites).tobytes() == render_frame(choreography.timeline[-1], sprites).tobytes()
+    assert render_frame(choreography.timeline[0], sprites, background).tobytes() == render_frame(choreography.timeline[-1], sprites, background).tobytes()
     positions = np.array([[record["x"], record["y"]] for record in choreography.timeline])
     durations = np.array([record["duration_ms"] for record in choreography.timeline])
     # 不等时帧比较速度而不是单帧距离，避免把较长停留误判成瞬移。
@@ -233,12 +242,13 @@ def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
     sequences = load_sequences()
     choreography = Choreography(sequences).build()
-    path = export_gif(choreography, shared_color_table(sequences))
-    report = verify_export(path, choreography)
+    path, background = export_gif(choreography, shared_color_table(sequences))
+    report = verify_export(path, choreography, background)
     report["rhythm"] = verify_rhythm(choreography)
+    report["scene"] = verify_landings(choreography)
     svg = export_svg(choreography, OUTPUT / "crow.svg", SIZE)
     report["svg"] = {"file": svg.name, "bytes": svg.stat().st_size,
-                     "responsive_width": True, "fixed_height": SIZE[1]}
+                     "responsive_width": True, "viewbox": [0, 0, *SIZE]}
     print(json.dumps(report, indent=2))
 
 

@@ -1,4 +1,4 @@
-"""导出自适应 README 宽度、角色像素尺寸固定的独立 SVG。"""
+"""导出背景和角色共用坐标系、可随 README 宽度缩放的独立 SVG。"""
 
 import base64
 import io
@@ -6,6 +6,7 @@ import math
 from xml.etree import ElementTree as ET
 
 from PIL import Image
+from scripts.retro.crow.scene import SOURCE, SVG_HEIGHT, SVG_GROUND
 
 NAMESPACE = "http://www.w3.org/2000/svg"
 SPRITE_SIZE = 96
@@ -57,11 +58,18 @@ def pose_viewbox(record):
 def export_svg(choreography, path, size):
     timeline = choreography.timeline
     atlas_size, encoded = sprite_atlas(choreography.sprites)
-    # 根节点不设 viewBox，避免 README 变宽时连角色一起放大。
-    root = ET.Element(f"{{{NAMESPACE}}}svg", width="100%", height=str(size[1]),
+    # 共用 viewBox，窄屏缩放时背景墙顶和角色脚底不会产生相对位移。
+    root = ET.Element(f"{{{NAMESPACE}}}svg", width=str(size[0]), height=str(size[1]),
+                      viewBox=f"0 0 {size[0]} {size[1]}",
+                      preserveAspectRatio="xMidYMid meet",
                       role="img", **{"aria-labelledby": "title", "overflow": "hidden"})
-    element(root, "title", id="title").text = "迷你像素乌鸦巡游"
-    position = add_route(root, timeline, size)
+    element(root, "title", id="title").text = "crow"
+    background = base64.b64encode(SOURCE.read_bytes()).decode("ascii")
+    element(root, "image", id="background", width=size[0], height=SVG_HEIGHT,
+            href=f"data:image/png;base64,{background}", preserveAspectRatio="xMidYMid meet",
+            **{"image-rendering": "pixelated"})
+    layer = element(root, "g", id="crow-layer", transform=f"translate(0 {SVG_GROUND - 128})")
+    position = add_route(layer, timeline, size)
     add_pose(position, timeline, atlas_size, encoded)
     ET.indent(root)
     path.write_text(ET.tostring(root, encoding="unicode") + "\n", encoding="utf-8")
@@ -69,14 +77,9 @@ def export_svg(choreography, path, size):
 
 
 def add_route(root, timeline, size):
-    ratios = [record["x"] / (size[0] - SPRITE_SIZE) for record in timeline]
-    horizontal = [f"{ratio * 100:.10f}%" for ratio in ratios]
-    positions = [f"{-ratio * SPRITE_SIZE:.10f} {record['y']}"
-                 for ratio, record in zip(ratios, timeline)]
-    route = element(root, "svg", id="route", x=horizontal[0], width="100%",
-                    height=size[1], overflow="visible")
-    animate(route, "x", horizontal, timeline)
-    # 百分比位移减去角色宽度对应的份额，让窄屏边界也保留完整角色。
+    # 路线使用场景坐标，外层统一缩放；避免百分比坐标受外部容器比例影响。
+    positions = [f"{record['x']} {record['y']}" for record in timeline]
+    route = element(root, "g", id="route")
     position = element(route, "g", id="position", transform=f"translate({positions[0]})")
     animate(position, "transform", positions, timeline, transform=True)
     return position

@@ -11,7 +11,7 @@ python -B scripts/retro/phorni/generate.py
 
 | 内容 | 路径 |
 | --- | --- |
-| 乌鸦成品 | `assets/crow/crow.svg`、`crow.gif` |
+| 乌鸦成品（含雨城透明背景） | `assets/crow/crow.svg`、`crow.gif` |
 | 芙铃成品 | `assets/phorni/phorni.gif`、`phorni.svg`（均为完整动作循环） |
 | 乌鸦离线预览 | `scripts/retro/previews/crow/index.html` |
 | 芙铃离线预览 | `scripts/retro/previews/phorni/index.html` |

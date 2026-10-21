@@ -2,7 +2,7 @@
   <img src="assets/phorni/phorni.svg" align="right" width="80" height="46" alt="" />
 </div>
 <div>
-  <img src="assets/crow/crow.svg" width="100%" height="128" alt="" />
+  <img src="assets/crow/crow.svg" width="100%" alt="" />
 </div>
 <div align="center">
   <div>
