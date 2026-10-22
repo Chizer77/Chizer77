@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-SOURCE = Path(__file__).resolve().parent / "sources/symphonic-rain-transparent.png"
+SOURCE = Path(__file__).resolve().parent / "sources/symphonic-rain.png"
 SOURCE_GROUND = 447
 SOURCE_SIZE = (2029, 633)
 WIDTH = 800

@@ -65,9 +65,10 @@ def export_svg(choreography, path, size):
                       role="img", **{"aria-labelledby": "title", "overflow": "hidden"})
     element(root, "title", id="title").text = "crow"
     background = base64.b64encode(SOURCE.read_bytes()).decode("ascii")
+    # 雾化背景使用平滑缩放，角色图集仍保留像素风格。
     element(root, "image", id="background", width=size[0], height=SVG_HEIGHT,
             href=f"data:image/png;base64,{background}", preserveAspectRatio="xMidYMid meet",
-            **{"image-rendering": "pixelated"})
+            **{"image-rendering": "auto"})
     layer = element(root, "g", id="crow-layer", transform=f"translate(0 {SVG_GROUND - 128})")
     position = add_route(layer, timeline, size)
     add_pose(position, timeline, atlas_size, encoded)
