@@ -1,6 +1,6 @@
 {
   "username": "Chizer77",
-  "fetchedAt": 1792989661206,
+  "fetchedAt": 1793077110727,
   "source": "graphql",
   "profile": {
     "name": "0x7C00H",
@@ -86,19 +86,7 @@
       "isArchived": false
     }
   ],
-  "pinnedRepos": [
-    {
-      "name": "sk-loadout",
-      "fullName": "Chizer77/sk-loadout",
-      "description": "Terminal skills manager for AI Agent.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 0,
-      "forks": 0,
-      "htmlUrl": "https://github.com/Chizer77/sk-loadout",
-      "isArchived": false
-    }
-  ],
+  "pinnedRepos": [],
   "languages": [
     {
       "name": "CSS",
