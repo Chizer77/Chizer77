@@ -13,7 +13,7 @@ export const config = {
             { name: "Web Skills", skills: ["React", "TypeScript", "StyleX", "Tailwind CSS"] },
             { name: "Backend Skills", skills: ["Python", "FastAPI", "Java", "SQLite", "Redis", "MongoDB", "C++"] },
             { name: "AI Skills", skills: ["PyTorch", "Triton", "Numpy", "Pandas", "SciPy"] },
-            { name: "Try To Learn", skills: ["Unity", "Blender", "UE5"] },
+            { name: "Try To Learn", skills: ["Rust", "Unity", "Blender", "UE5"] },
         ],
         theme: {
             bg: "#0a0a0b",
