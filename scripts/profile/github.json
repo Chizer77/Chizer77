@@ -1,6 +1,6 @@
 {
   "username": "Chizer77",
-  "fetchedAt": 1795180785061,
+  "fetchedAt": 1795244362524,
   "source": "graphql",
   "profile": {
     "name": "0x7C00H",
@@ -102,7 +102,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 288616,
+      "bytes": 288624,
       "color": "#3178c6",
       "percentage": 11
     },
